@@ -44,3 +44,10 @@ python3 -m http.server 8000
 ```
 
 Then open `http://localhost:8000`.
+
+## Share pages
+
+- `zh.html` — Chinese product introduction with copyable links.
+- `en.html` — English product introduction with copyable links.
+- `links.html` — bilingual link hub with copy buttons.
+- `downloads/` — public Chinese and English user guide PDFs.
