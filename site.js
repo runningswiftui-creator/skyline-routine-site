@@ -1,6 +1,7 @@
 /* Replace this with the checkout URL from Lemon Squeezy before launch. */
 const SITE_CONFIG = {
   checkoutUrl: "",
+  appStoreUrl: "",
   supportEmail: "runningswiftui@gmail.com"
 };
 
@@ -16,6 +17,20 @@ for (const button of checkoutButtons) {
     button.addEventListener("click", (event) => {
       event.preventDefault();
       showToast("Checkout is being connected. Please check back soon.");
+    });
+  }
+}
+
+const appStoreUrl = (SITE_CONFIG.appStoreUrl || "").trim();
+for (const button of document.querySelectorAll("[data-appstore]")) {
+  if (appStoreUrl) {
+    button.href = appStoreUrl;
+    button.target = "_blank";
+    button.rel = "noopener noreferrer";
+  } else {
+    button.addEventListener("click", (event) => {
+      event.preventDefault();
+      showToast("The Mac App Store link will be available after review.");
     });
   }
 }
