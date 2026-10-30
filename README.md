@@ -1,57 +1,37 @@
-# Skyline Routine website
+# Skyline Routine 官网
 
-Static product website for Skyline Routine, intended for GitHub Pages.
+Skyline Routine 的产品介绍与分享页面。
 
-## Before publishing
+## 页面
 
-1. Set the Mac App Store product URL after App Review:
+- `index.html` — 英文产品主页
+- `zh.html` — 中文介绍与分享链接
+- `en.html` — 英文介绍与分享链接
+- `links.html` — 双语链接汇总
+- `help.html` — 跟随语言参数显示使用指南
+- `privacy.html` — 隐私说明
+- `terms.html` — 使用条款
+- `downloads/` — 中文和 English 使用说明 PDF
 
-```js
-const SITE_CONFIG = {
-  checkoutUrl: "",
-  appStoreUrl: "https://apps.apple.com/app/id...",
-  supportEmail: "runningswiftui@gmail.com"
-};
-```
+## 产品信息
 
-2. Keep the Windows direct checkout URL in `checkoutUrl` if that license remains available.
-3. Replace `assets/settings.png` with a current screenshot when the UI changes.
-4. Commit and push.
+- 免费下载，Pro 一次性解锁
+- 首次引导、场景包、稍后提醒、轻量模式、会议免打扰、带倒计时的暂停提醒
+- 飞行区域：全屏、四分之一或可拖动自定义，单条提醒可单独设置
+- 鼠标避让：默认关闭，近/中/远距离；飞机和卡片整体避让
+- 无跑道/黑色遮罩，降落后 5 秒提示
+- 本周分享卡片
+- 本地备份导出与导入
+- 18 种飞机，包括轰炸机、侦察机
+- 6 种提醒卡片样式
+- 7 种主题，包括糖果乐园与二次元
+- Pro 多时间段提醒与本周回顾
+- 11 种语言
+- 提醒数据只保存在本机
 
-## Free / Pro model
+## 发布
 
-- Free Mac App Store download: 3 active reminders, 4 aircraft, 2 card styles, one custom path.
-- Pro one-time upgrade: unlimited reminders and paths, all 16 aircraft, all 6 card styles, custom images, and 4 Pro themes.
-- Suggested pricing: **$4.99 / ¥30** regular, **$2.99 / ¥18** launch.
+修改页面内容后，更新对应截图和 PDF，再同步到线上站点。
 
-## GitHub Pages
-
-In the repository settings:
-
-```text
-Settings → Pages
-Source: Deploy from a branch
-Branch: main
-Folder: / (root)
-```
-
-The site URL will be:
-
-```text
-https://runningswiftui-creator.github.io/skyline-routine-site/
-```
-
-## Local preview
-
-```bash
-python3 -m http.server 8000
-```
-
-Then open `http://localhost:8000`.
-
-## Share pages
-
-- `zh.html` — Chinese product introduction with copyable links.
-- `en.html` — English product introduction with copyable links.
-- `links.html` — bilingual link hub with copy buttons.
-- `downloads/` — public Chinese and English user guide PDFs.
+- Mac App Store 链接：待审核通过后填入 `site.js`
+- 支持邮箱：`runningswiftui@gmail.com`

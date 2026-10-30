@@ -1,7 +1,7 @@
 /* Replace this with the checkout URL from Lemon Squeezy before launch. */
 const SITE_CONFIG = {
   checkoutUrl: "",
-  appStoreUrl: "",
+  appStoreUrl: "https://apps.apple.com/app/id6826509385",
   supportEmail: "runningswiftui@gmail.com"
 };
 
