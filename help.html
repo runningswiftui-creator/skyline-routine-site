@@ -40,95 +40,359 @@
     </main>
     <script>
       const HELP = {
-        'zh-CN': { title:'使用指南', intro:'Skyline Routine 会在设定时间让飞机起飞并持续巡航，点击飞机或提醒内容即可结束。', back:'返回', guide:'完整使用说明', cards:[
-          ['快速开始','新建提醒，填写内容和时间，保存后保持应用运行。到点后飞机会出现在屏幕上。'],
-          ['暂停提醒','可选择会议 30/60 分钟或暂停 1 小时。首页会显示剩余倒计时，恢复前需要确认。'],
-          ['飞行区域','可选择全屏、四个四分之一区域或拖动自定义区域；每条提醒也可以单独覆盖。'],
-          ['鼠标避让','默认关闭。开启后可选择近、中、远距离，飞机和卡片会整体避让鼠标。'],
-          ['降落','只有飞机完全飞出屏幕后才会在屏幕外降落；降落后底部提示约 5 秒。'],
-          ['本地数据','提醒只保存在本机。可以保存分享卡片，也可以导出/导入提醒备份。']
-        ]},
-        'zh-TW': { title:'使用指南', intro:'Skyline Routine 會在設定時間讓飛機起飛並持續巡航，點擊飛機或提醒內容即可結束。', back:'返回', guide:'完整使用說明', cards:[
-          ['快速開始','新增提醒，填寫內容和時間，儲存後保持應用程式執行。到時飛機會出現在螢幕上。'],
-          ['暫停提醒','可選擇會議 30/60 分鐘或暫停 1 小時。首頁會顯示剩餘倒數，恢復前需要確認。'],
-          ['飛行區域','可選擇全螢幕、四個四分之一區域或拖動自訂區域；每條提醒也可以單獨覆寫。'],
-          ['滑鼠避讓','預設關閉。開啟後可選擇近、中、遠距離，飛機和卡片會整體避讓滑鼠。'],
-          ['降落','只有飛機完全飛出螢幕後才會在螢幕外降落；降落後底部提示約 5 秒。'],
-          ['本機資料','提醒只保存在本機。可以儲存分享卡片，也可以匯出/匯入提醒備份。']
-        ]},
-        'en-US': { title:'User guide', intro:'Skyline Routine sends a plane across your screen at the scheduled time. Click the plane or reminder text to end the flight.', back:'Back', guide:'Full user guide', cards:[
-          ['Quick start','Create a reminder, choose a time and repeat mode, save it, and keep the app running. The flight appears when due.'],
-          ['Pause reminders','Use Meeting 30/60 minutes or Pause. The main page shows the countdown, and resuming asks for confirmation.'],
-          ['Flight area','Choose full screen, one of the four quarters, or a drag-to-resize custom area. Each reminder can override the default.'],
-          ['Cursor avoidance','Off by default. Choose near, medium, or far distance to make the aircraft and card avoid the pointer together.'],
-          ['Landing','The aircraft lands outside only after it has completely left the screen. The main page shows a short 5-second notice.'],
-          ['Local data','Reminders stay on your Mac. You can save a share card and export or import a reminder backup.']
-        ]},
-        'ja-JP': { title:'使い方', intro:'Skyline Routine は設定した時刻に飛行機を飛ばし、クリックするまで画面上を巡航します。', back:'戻る', guide:'詳しい使い方', cards:[
-          ['クイックスタート','リマインダーを作成し、時刻と繰り返しを設定して保存します。アプリは起動したままにしてください。'],
-          ['一時停止','会議 30/60 分または 1 時間の一時停止を選べます。残り時間が表示され、再開時に確認します。'],
-          ['飛行エリア','全画面、4分割、ドラッグで調整するカスタムエリアから選べます。リマインダーごとの設定も可能です。'],
-          ['カーソル回避','初期設定はオフです。近・中・遠の距離を選ぶと、飛行機とカードが一緒にカーソルを避けます。'],
-          ['着陸','飛行機が完全に画面外に出た場合のみ画面外に着陸し、メイン画面に約5秒の通知を表示します。'],
-          ['ローカルデータ','リマインダーは Mac 内に保存されます。共有カードの保存、バックアップの書き出し・読み込みができます。']
-        ]},
-        'ko-KR': { title:'사용 방법', intro:'Skyline Routine은 설정한 시간에 비행기를 띄우고, 클릭할 때까지 화면을 순항합니다.', back:'뒤로', guide:'전체 사용 설명서', cards:[
-          ['빠른 시작','알림을 만들고 시간과 반복을 설정한 뒤 저장하세요. 앱은 실행 상태로 두세요.'],
-          ['알림 일시정지','회의 30/60분 또는 1시간 일시정지를 선택할 수 있습니다. 남은 시간이 표시되고 재개 시 확인합니다.'],
-          ['비행 영역','전체 화면, 4분할, 드래그로 조정하는 사용자 영역을 선택할 수 있습니다. 알림별로 설정할 수도 있습니다.'],
-          ['커서 회피','기본값은 꺼짐입니다. 가까움/보통/멀리를 선택하면 비행기와 카드가 함께 커서를 피합니다.'],
-          ['착륙','비행기가 화면 밖으로 완전히 나간 경우에만 화면 밖에 착륙하며, 메인 화면에 약 5초 알림을 표시합니다.'],
-          ['로컬 데이터','알림은 Mac에만 저장됩니다. 공유 카드를 저장하고 알림 백업을 내보내거나 가져올 수 있습니다.']
-        ]},
-        'es-ES': { title:'Guía de uso', intro:'Skyline Routine hace despegar un avión a la hora programada y lo mantiene en vuelo hasta que lo confirmes.', back:'Volver', guide:'Guía completa', cards:[
-          ['Inicio rápido','Crea un recordatorio, elige hora y repetición, guárdalo y mantén la app abierta. El vuelo aparecerá a su hora.'],
-          ['Pausar recordatorios','Elige Reunión 30/60 minutos o Pausa. La página principal muestra la cuenta atrás y pide confirmación al reanudar.'],
-          ['Zona de vuelo','Elige pantalla completa, uno de los cuatro cuartos o una zona personalizada arrastrable. Cada recordatorio puede cambiarla.'],
-          ['Evitar el cursor','Desactivado por defecto. Elige cerca, medio o lejos para que el avión y la tarjeta eviten juntos el puntero.'],
-          ['Aterrizaje','Solo aterriza fuera de la pantalla cuando el avión ha salido por completo; la página principal muestra un aviso de 5 segundos.'],
-          ['Datos locales','Los recordatorios se guardan en tu Mac. Puedes guardar una tarjeta para compartir y exportar o importar una copia.']
-        ]},
-        'fr-FR': { title:'Guide d’utilisation', intro:'Skyline Routine fait décoller un avion à l’heure prévue et le fait voler jusqu’à votre confirmation.', back:'Retour', guide:'Guide complet', cards:[
-          ['Démarrage rapide','Créez un rappel, choisissez l’heure et la répétition, enregistrez-le et gardez l’app ouverte. Le vol apparaîtra à l’heure.'],
-          ['Mettre en pause','Choisissez Réunion 30/60 minutes ou Pause. La page principale affiche le compte à rebours et demande confirmation avant de reprendre.'],
-          ['Zone de vol','Choisissez l’écran complet, un des quatre quarts ou une zone personnalisée à redimensionner. Chaque rappel peut la remplacer.'],
-          ['Éviter le curseur','Désactivé par défaut. Choisissez près, moyen ou loin pour que l’avion et la carte évitent ensemble le pointeur.'],
-          ['Atterrissage','L’avion n’atterrit hors écran qu’après être complètement sorti ; la page principale affiche un avis de 5 secondes.'],
-          ['Données locales','Les rappels restent sur votre Mac. Vous pouvez enregistrer une carte de partage et exporter ou importer une sauvegarde.']
-        ]},
-        'de-DE': { title:'Anleitung', intro:'Skyline Routine lässt ein Flugzeug zur geplanten Zeit starten und fliegt weiter, bis du es bestätigst.', back:'Zurück', guide:'Vollständige Anleitung', cards:[
-          ['Schnellstart','Erstelle eine Erinnerung, wähle Zeit und Wiederholung, speichere sie und lasse die App laufen. Der Flug erscheint zur richtigen Zeit.'],
-          ['Erinnerungen pausieren','Wähle Meeting 30/60 Minuten oder Pause. Die Hauptseite zeigt den Countdown und fragt vor dem Fortsetzen nach.'],
-          ['Flugbereich','Wähle Vollbild, ein Viertel oder einen ziehbaren eigenen Bereich. Jede Erinnerung kann den Standard überschreiben.'],
-          ['Cursor ausweichen','Standardmäßig aus. Wähle nah, mittel oder weit, damit Flugzeug und Karte gemeinsam dem Zeiger ausweichen.'],
-          ['Landung','Das Flugzeug landet nur außerhalb des Bildschirms, wenn es ihn vollständig verlassen hat; die Hauptseite zeigt 5 Sekunden lang einen Hinweis.'],
-          ['Lokale Daten','Erinnerungen bleiben auf deinem Mac. Du kannst eine Teilen-Karte speichern und eine Sicherung exportieren oder importieren.']
-        ]},
-        'it-IT': { title:'Guida all’uso', intro:'Skyline Routine fa decollare un aereo all’orario scelto e lo mantiene in volo finché non lo confermi.', back:'Indietro', guide:'Guida completa', cards:[
-          ['Avvio rapido','Crea un promemoria, scegli orario e ripetizione, salvalo e lascia l’app aperta. Il volo appare all’orario previsto.'],
-          ['Sospendere i promemoria','Scegli Riunione 30/60 minuti o Pausa. La pagina principale mostra il conto alla rovescia e chiede conferma prima di riprendere.'],
-          ['Area di volo','Scegli schermo intero, un quarto o un’area personalizzata ridimensionabile. Ogni promemoria può sovrascriverla.'],
-          ['Evita il cursore','Disattivato per impostazione predefinita. Scegli vicino, medio o lontano per far evitare insieme aereo e scheda il puntatore.'],
-          ['Atterraggio','L’aereo atterra fuori schermo solo dopo essere uscito completamente; la pagina principale mostra un avviso di 5 secondi.'],
-          ['Dati locali','I promemoria restano sul Mac. Puoi salvare una scheda da condividere ed esportare o importare un backup.']
-        ]},
-        'nl-NL': { title:'Gebruikershandleiding', intro:'Skyline Routine laat op de ingestelde tijd een vliegtuig opstijgen en blijft vliegen tot je bevestigt.', back:'Terug', guide:'Volledige handleiding', cards:[
-          ['Snel starten','Maak een herinnering, kies tijd en herhaling, sla op en laat de app draaien. Het vliegtuig verschijnt op tijd.'],
-          ['Herinneringen pauzeren','Kies Vergadering 30/60 minuten of Pauze. De hoofdpagina toont de aftelling en vraagt om bevestiging bij hervatten.'],
-          ['Vlieggebied','Kies volledig scherm, een kwart of een sleepbaar eigen gebied. Elke herinnering kan de standaard overschrijven.'],
-          ['Cursor ontwijken','Standaard uit. Kies dichtbij, gemiddeld of ver om vliegtuig en kaart samen de cursor te laten ontwijken.'],
-          ['Landing','Het vliegtuig landt alleen buiten het scherm nadat het volledig is verdwenen; de hoofdpagina toont 5 seconden een melding.'],
-          ['Lokale gegevens','Herinneringen blijven op je Mac. Je kunt een deelkaart opslaan en een back-up exporteren of importeren.']
-        ]},
-        'sv-SE': { title:'Användarguide', intro:'Skyline Routine skickar upp ett flygplan vid vald tid och fortsätter flyga tills du bekräftar.', back:'Tillbaka', guide:'Fullständig guide', cards:[
-          ['Snabbstart','Skapa en påminnelse, välj tid och upprepning, spara och låt appen köra. Flygplanet visas vid rätt tid.'],
-          ['Pausa påminnelser','Välj Möte 30/60 minuter eller Paus. Huvudsidan visar nedräkningen och frågar innan den återupptas.'],
-          ['Flygområde','Välj helskärm, en fjärdedel eller ett eget område som du drar i. Varje påminnelse kan åsidosätta standarden.'],
-          ['Undvik markören','Av som standard. Välj nära, medel eller långt för att flygplan och kort tillsammans ska undvika pekaren.'],
-          ['Landning','Flygplanet landar utanför skärmen först när det helt har lämnat den; huvudsidan visar en 5-sekunders notis.'],
-          ['Lokal data','Påminnelser stannar på din Mac. Du kan spara ett delningskort och exportera eller importera en säkerhetskopia.']
-        ]}
-      };
+  "zh-CN": {
+    "title": "使用指南",
+    "intro": "Skyline Routine 会在设定时间让飞机起飞并持续巡航，点击飞机或提醒内容即可结束。",
+    "back": "返回",
+    "guide": "完整使用说明",
+    "cards": [
+      [
+        "快速开始",
+        "新建提醒，填写内容和时间，保存后保持应用运行。到点后飞机会出现在屏幕上。"
+      ],
+      [
+        "暂停提醒",
+        "选择会议 30/60 分钟或暂停提醒。选中的时段会高亮；再次点击同一时段可取消。首页显示倒计时，恢复前需要确认。"
+      ],
+      [
+        "飞行区域",
+        "可选择全屏、四个四分之一区域或拖动自定义区域；每条提醒也可以单独覆盖。"
+      ],
+      [
+        "鼠标避让",
+        "默认关闭。开启后可选择近、中、远距离，飞机和卡片会整体避让鼠标。"
+      ],
+      [
+        "降落",
+        "点击后飞机不会反向。机头已在当前飞行区域外时立即结束；距离足够时按正常进近距离降落，距离不足时以对应侧下角为终点。 直升机、无人机、飞碟、飞艇和热气球等垂直起降机型仍在原地垂直降落。"
+      ],
+      [
+        "本地数据",
+        "提醒只保存在本机。可以保存分享卡片，也可以导出/导入提醒备份。"
+      ]
+    ]
+  },
+  "zh-TW": {
+    "title": "使用指南",
+    "intro": "Skyline Routine 會在設定時間讓飛機起飛並持續巡航，點擊飛機或提醒內容即可結束。",
+    "back": "返回",
+    "guide": "完整使用說明",
+    "cards": [
+      [
+        "快速開始",
+        "新增提醒，填寫內容和時間，儲存後保持應用程式執行。到時飛機會出現在螢幕上。"
+      ],
+      [
+        "暫停提醒",
+        "選擇會議 30/60 分鐘或暫停提醒。選取的時段會醒目顯示；再次點擊同一時段可取消。首頁顯示倒數，恢復前需要確認。"
+      ],
+      [
+        "飛行區域",
+        "可選擇全螢幕、四個四分之一區域或拖動自訂區域；每條提醒也可以單獨覆寫。"
+      ],
+      [
+        "滑鼠避讓",
+        "預設關閉。開啟後可選擇近、中、遠距離，飛機和卡片會整體避讓滑鼠。"
+      ],
+      [
+        "降落",
+        "點擊後飛機不會反向。機頭已在目前飛行區域外時立即結束；距離足夠時按正常進近距離降落，距離不足時以對應側下角為終點。 直升機、無人機、飛碟、飛艇和熱氣球等垂直起降機型仍在原地垂直降落。"
+      ],
+      [
+        "本機資料",
+        "提醒只保存在本機。可以儲存分享卡片，也可以匯出/匯入提醒備份。"
+      ]
+    ]
+  },
+  "en-US": {
+    "title": "User guide",
+    "intro": "Skyline Routine sends a plane across your screen at the scheduled time. Click the plane or reminder text to end the flight.",
+    "back": "Back",
+    "guide": "Full user guide",
+    "cards": [
+      [
+        "Quick start",
+        "Create a reminder, choose a time and repeat mode, save it, and keep the app running. The flight appears when due."
+      ],
+      [
+        "Pause reminders",
+        "Choose Meeting 30/60 minutes or Pause. The selected duration is highlighted; click it again to cancel. The main page shows the countdown, and resuming asks for confirmation."
+      ],
+      [
+        "Flight area",
+        "Choose full screen, one of the four quarters, or a drag-to-resize custom area. Each reminder can override the default."
+      ],
+      [
+        "Cursor avoidance",
+        "Off by default. Choose near, medium, or far distance to make the aircraft and card avoid the pointer together."
+      ],
+      [
+        "Landing",
+        "Clicking never reverses. If the nose is already outside the current flight area, it ends immediately. If there is enough room, it uses the normal landing distance; otherwise it uses the matching bottom corner as the endpoint. Vertical take-off types (helicopter, drone, UFO, airship, balloon) still land vertically in place."
+      ],
+      [
+        "Local data",
+        "Reminders stay on your Mac. You can save a share card and export or import a reminder backup."
+      ]
+    ]
+  },
+  "ja-JP": {
+    "title": "使い方",
+    "intro": "Skyline Routine は設定した時刻に飛行機を飛ばし、クリックするまで画面上を巡航します。",
+    "back": "戻る",
+    "guide": "詳しい使い方",
+    "cards": [
+      [
+        "クイックスタート",
+        "リマインダーを作成し、時刻と繰り返しを設定して保存します。アプリは起動したままにしてください。"
+      ],
+      [
+        "一時停止",
+        "会議 30/60 分または一時停止を選択します。選択中の時間は強調表示され、もう一度クリックすると解除されます。メイン画面にカウントダウンが表示され、再開時に確認します。"
+      ],
+      [
+        "飛行エリア",
+        "全画面、4分割、ドラッグで調整するカスタムエリアから選べます。リマインダーごとの設定も可能です。"
+      ],
+      [
+        "カーソル回避",
+        "初期設定はオフです。近・中・遠の距離を選ぶと、飛行機とカードが一緒にカーソルを避けます。"
+      ],
+      [
+        "降落",
+        "クリックしても引き返しません。機首が現在の飛行領域の外にある場合は即座に終了します。距離が十分なら通常の着陸距離で着陸し、足りない場合は対応する下隅を終点にします。 ヘリコプター、ドローン、UFO、飛行船、気球などの垂直離着陸タイプは、引き続きその場で垂直に着陸します。"
+      ],
+      [
+        "ローカルデータ",
+        "リマインダーは Mac 内に保存されます。共有カードの保存、バックアップの書き出し・読み込みができます。"
+      ]
+    ]
+  },
+  "ko-KR": {
+    "title": "사용 방법",
+    "intro": "Skyline Routine은 설정한 시간에 비행기를 띄우고, 클릭할 때까지 화면을 순항합니다.",
+    "back": "뒤로",
+    "guide": "전체 사용 설명서",
+    "cards": [
+      [
+        "빠른 시작",
+        "알림을 만들고 시간과 반복을 설정한 뒤 저장하세요. 앱은 실행 상태로 두세요."
+      ],
+      [
+        "알림 일시정지",
+        "회의 30/60분 또는 일시 중지를 선택합니다. 선택한 기간이 강조 표시됩니다. 취소하려면 다시 클릭하세요. 메인 페이지에는 카운트다운이 표시되고 재개 시 확인 메시지가 표시됩니다."
+      ],
+      [
+        "비행 영역",
+        "전체 화면, 4분할, 드래그로 조정하는 사용자 영역을 선택할 수 있습니다. 알림별로 설정할 수도 있습니다."
+      ],
+      [
+        "커서 회피",
+        "기본값은 꺼짐입니다. 가까움/보통/멀리를 선택하면 비행기와 카드가 함께 커서를 피합니다."
+      ],
+      [
+        "降落",
+        "클릭해도 되돌릴 수 없습니다. 기수가 이미 현재 비행 영역을 벗어나면 즉시 종료됩니다. 공간이 충분하면 일반 착륙 거리를 사용합니다. 그렇지 않으면 일치하는 하단 모서리를 끝점으로 사용합니다. 수직 이륙 유형(헬리콥터, 드론, UFO, 비행선, 풍선)은 여전히 ​​수직으로 제자리에 착륙합니다."
+      ],
+      [
+        "로컬 데이터",
+        "알림은 Mac에만 저장됩니다. 공유 카드를 저장하고 알림 백업을 내보내거나 가져올 수 있습니다."
+      ]
+    ]
+  },
+  "es-ES": {
+    "title": "Guía de uso",
+    "intro": "Skyline Routine hace despegar un avión a la hora programada y lo mantiene en vuelo hasta que lo confirmes.",
+    "back": "Volver",
+    "guide": "Guía completa",
+    "cards": [
+      [
+        "Inicio rápido",
+        "Crea un recordatorio, elige hora y repetición, guárdalo y mantén la app abierta. El vuelo aparecerá a su hora."
+      ],
+      [
+        "Pausar recordatorios",
+        "Elija Reunión de 30/60 minutos o Pausa. La duración seleccionada está resaltada; haga clic en él nuevamente para cancelar. La página principal muestra la cuenta regresiva y la reanudación solicita confirmación."
+      ],
+      [
+        "Zona de vuelo",
+        "Elige pantalla completa, uno de los cuatro cuartos o una zona personalizada arrastrable. Cada recordatorio puede cambiarla."
+      ],
+      [
+        "Evitar el cursor",
+        "Desactivado por defecto. Elige cerca, medio o lejos para que el avión y la tarjeta eviten juntos el puntero."
+      ],
+      [
+        "Aterrizaje",
+        "Al hacer clic nunca se invierte. Si el morro ya está fuera del área de vuelo actual, finaliza inmediatamente. Si hay suficiente espacio, utiliza la distancia de aterrizaje normal; de lo contrario, utiliza la esquina inferior correspondiente como punto final. Los tipos de despegue vertical (helicóptero, dron, OVNI, dirigible, globo) siguen aterrizando verticalmente en su lugar."
+      ],
+      [
+        "Datos locales",
+        "Los recordatorios se guardan en tu Mac. Puedes guardar una tarjeta para compartir y exportar o importar una copia."
+      ]
+    ]
+  },
+  "fr-FR": {
+    "title": "Guide d’utilisation",
+    "intro": "Skyline Routine fait décoller un avion à l’heure prévue et le fait voler jusqu’à votre confirmation.",
+    "back": "Retour",
+    "guide": "Guide complet",
+    "cards": [
+      [
+        "Démarrage rapide",
+        "Créez un rappel, choisissez l’heure et la répétition, enregistrez-le et gardez l’app ouverte. Le vol apparaîtra à l’heure."
+      ],
+      [
+        "Mettre en pause",
+        "Choisissez Réunion 30/60 minutes ou Pause. La durée sélectionnée est mise en surbrillance ; cliquez à nouveau dessus pour annuler. La page principale affiche le compte à rebours et la reprise demande une confirmation."
+      ],
+      [
+        "Zone de vol",
+        "Choisissez l’écran complet, un des quatre quarts ou une zone personnalisée à redimensionner. Chaque rappel peut la remplacer."
+      ],
+      [
+        "Éviter le curseur",
+        "Désactivé par défaut. Choisissez près, moyen ou loin pour que l’avion et la carte évitent ensemble le pointeur."
+      ],
+      [
+        "降落",
+        "Cliquer ne s’inverse jamais. Si le nez est déjà en dehors de la zone de vol actuelle, il se termine immédiatement. S’il y a suffisamment d’espace, il utilise la distance d’atterrissage normale ; sinon, il utilise le coin inférieur correspondant comme point de terminaison. Les types à décollage vertical (hélicoptère, drone, OVNI, dirigeable, ballon) atterrissent toujours verticalement sur place."
+      ],
+      [
+        "Données locales",
+        "Les rappels restent sur votre Mac. Vous pouvez enregistrer une carte de partage et exporter ou importer une sauvegarde."
+      ]
+    ]
+  },
+  "de-DE": {
+    "title": "Anleitung",
+    "intro": "Skyline Routine lässt ein Flugzeug zur geplanten Zeit starten und fliegt weiter, bis du es bestätigst.",
+    "back": "Zurück",
+    "guide": "Vollständige Anleitung",
+    "cards": [
+      [
+        "Schnellstart",
+        "Erstelle eine Erinnerung, wähle Zeit und Wiederholung, speichere sie und lasse die App laufen. Der Flug erscheint zur richtigen Zeit."
+      ],
+      [
+        "Erinnerungen pausieren",
+        "Wählen Sie „Besprechung 30/60 Minuten“ oder „Pause“. Die ausgewählte Dauer wird hervorgehoben; Klicken Sie erneut darauf, um den Vorgang abzubrechen. Auf der Hauptseite wird der Countdown angezeigt und beim Fortsetzen wird um eine Bestätigung gebeten."
+      ],
+      [
+        "Flugbereich",
+        "Wähle Vollbild, ein Viertel oder einen ziehbaren eigenen Bereich. Jede Erinnerung kann den Standard überschreiben."
+      ],
+      [
+        "Cursor ausweichen",
+        "Standardmäßig aus. Wähle nah, mittel oder weit, damit Flugzeug und Karte gemeinsam dem Zeiger ausweichen."
+      ],
+      [
+        "Landung",
+        "Durch Klicken wird niemals umgekehrt. Befindet sich die Nase bereits außerhalb des aktuellen Flugbereichs, endet sie sofort. Wenn genügend Platz vorhanden ist, wird die normale Landestrecke verwendet; andernfalls wird die entsprechende untere Ecke als Endpunkt verwendet. Senkrechtstarter (Hubschrauber, Drohne, UFO, Luftschiff, Ballon) landen immer noch senkrecht auf der Stelle."
+      ],
+      [
+        "Lokale Daten",
+        "Erinnerungen bleiben auf deinem Mac. Du kannst eine Teilen-Karte speichern und eine Sicherung exportieren oder importieren."
+      ]
+    ]
+  },
+  "it-IT": {
+    "title": "Guida all’uso",
+    "intro": "Skyline Routine fa decollare un aereo all’orario scelto e lo mantiene in volo finché non lo confermi.",
+    "back": "Indietro",
+    "guide": "Guida completa",
+    "cards": [
+      [
+        "Avvio rapido",
+        "Crea un promemoria, scegli orario e ripetizione, salvalo e lascia l’app aperta. Il volo appare all’orario previsto."
+      ],
+      [
+        "Sospendere i promemoria",
+        "Scegli Riunione 30/60 minuti o Pausa. La durata selezionata viene evidenziata; fare nuovamente clic per annullare. La pagina principale mostra il conto alla rovescia e la ripresa richiede conferma."
+      ],
+      [
+        "Area di volo",
+        "Scegli schermo intero, un quarto o un’area personalizzata ridimensionabile. Ogni promemoria può sovrascriverla."
+      ],
+      [
+        "Evita il cursore",
+        "Disattivato per impostazione predefinita. Scegli vicino, medio o lontano per far evitare insieme aereo e scheda il puntatore."
+      ],
+      [
+        "Atterraggio",
+        "Facendo clic non si inverte mai. Se il muso è già fuori dall’attuale area di volo, termina immediatamente. Se c’è abbastanza spazio, utilizza la normale distanza di atterraggio; altrimenti utilizza l’angolo inferiore corrispondente come punto finale. I tipi di decollo verticale (elicottero, drone, UFO, dirigibile, pallone) atterrano ancora verticalmente sul posto."
+      ],
+      [
+        "Dati locali",
+        "I promemoria restano sul Mac. Puoi salvare una scheda da condividere ed esportare o importare un backup."
+      ]
+    ]
+  },
+  "nl-NL": {
+    "title": "Gebruikershandleiding",
+    "intro": "Skyline Routine laat op de ingestelde tijd een vliegtuig opstijgen en blijft vliegen tot je bevestigt.",
+    "back": "Terug",
+    "guide": "Volledige handleiding",
+    "cards": [
+      [
+        "Snel starten",
+        "Maak een herinnering, kies tijd en herhaling, sla op en laat de app draaien. Het vliegtuig verschijnt op tijd."
+      ],
+      [
+        "Herinneringen pauzeren",
+        "Kies Vergadering 30/60 minuten of Pauze. De geselecteerde duur is gemarkeerd; klik er nogmaals op om te annuleren. De hoofdpagina toont het aftellen en bij het hervatten wordt om bevestiging gevraagd."
+      ],
+      [
+        "Vlieggebied",
+        "Kies volledig scherm, een kwart of een sleepbaar eigen gebied. Elke herinnering kan de standaard overschrijven."
+      ],
+      [
+        "Cursor ontwijken",
+        "Standaard uit. Kies dichtbij, gemiddeld of ver om vliegtuig en kaart samen de cursor te laten ontwijken."
+      ],
+      [
+        "Landing",
+        "Klikken keert nooit terug. Als de neus zich al buiten het huidige vlieggebied bevindt, eindigt deze onmiddellijk. Als er voldoende ruimte is, wordt de normale landingsafstand aangehouden; anders wordt de overeenkomende onderste hoek als eindpunt gebruikt. Verticale starttypes (helikopter, drone, UFO, luchtschip, ballon) landen nog steeds verticaal op hun plaats."
+      ],
+      [
+        "Lokale gegevens",
+        "Herinneringen blijven op je Mac. Je kunt een deelkaart opslaan en een back-up exporteren of importeren."
+      ]
+    ]
+  },
+  "sv-SE": {
+    "title": "Användarguide",
+    "intro": "Skyline Routine skickar upp ett flygplan vid vald tid och fortsätter flyga tills du bekräftar.",
+    "back": "Tillbaka",
+    "guide": "Fullständig guide",
+    "cards": [
+      [
+        "Snabbstart",
+        "Skapa en påminnelse, välj tid och upprepning, spara och låt appen köra. Flygplanet visas vid rätt tid."
+      ],
+      [
+        "Pausa påminnelser",
+        "Välj Möte 30/60 minuter eller Pausa. Den valda varaktigheten är markerad; klicka på den igen för att avbryta. Huvudsidan visar nedräkningen och återuppta ber om bekräftelse."
+      ],
+      [
+        "Flygområde",
+        "Välj helskärm, en fjärdedel eller ett eget område som du drar i. Varje påminnelse kan åsidosätta standarden."
+      ],
+      [
+        "Undvik markören",
+        "Av som standard. Välj nära, medel eller långt för att flygplan och kort tillsammans ska undvika pekaren."
+      ],
+      [
+        "Landning",
+        "Att klicka vänder aldrig. Om näsan redan är utanför det aktuella flygområdet slutar den omedelbart. Om det finns tillräckligt med utrymme använder den det normala landningsavståndet; annars använder den det matchande nedre hörnet som slutpunkt. Vertikala starttyper (helikopter, drönare, UFO, luftskepp, ballong) landar fortfarande vertikalt på plats."
+      ],
+      [
+        "Lokal data",
+        "Påminnelser stannar på din Mac. Du kan spara ett delningskort och exportera eller importera en säkerhetskopia."
+      ]
+    ]
+  }
+};
       const params = new URLSearchParams(location.search);
       const requested = params.get('lang') || navigator.language || 'en-US';
       const helpKeys = Object.keys(HELP);

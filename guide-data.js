@@ -43,13 +43,13 @@ window.SKYLINE_GUIDE = {
           "Click the aircraft or card to land immediately. If you do nothing, it lands after the maximum flight time.",
           "Use Snooze for 10 or 30 minutes, or Skip today to skip the rest of the day for that reminder.",
           "The aircraft avoids the pointer only when Cursor avoidance is enabled. Choose Near, Medium, or Far in Settings. The aircraft and card move together and hold their side of the pointer.",
-          "If the aircraft is still visible, it lands inside the current area. It lands outside only after it has completely left the screen. The main window shows a short landing notice."
+          "Clicking never reverses. If the nose is already outside the current flight area, it ends immediately. If there is enough room, it uses the normal landing distance; otherwise it uses the matching bottom corner as the endpoint. Vertical take-off types (helicopter, drone, UFO, airship, balloon) still land vertically in place."
         ]
       ],
       [
         "6. Pause and meeting mode",
         [
-          "Pause reminders for 30 or 60 minutes, or pause for 1 hour. The main window shows the pause duration, a countdown, and the resume time.",
+          "Pause reminders for 30 or 60 minutes, or pause for 1 hour. The selected duration is highlighted; click it again to cancel. Nothing is selected by default. The main window shows the pause duration, a countdown, and the resume time.",
           "Resuming asks for confirmation. Pausing and resuming do not show a bottom-right success toast.",
           "Meeting mode is a manual quiet mode. It is useful before a call, presentation, or screen sharing session.",
           "Pause all is available when there are 5 or more enabled reminders."
@@ -136,13 +136,13 @@ window.SKYLINE_GUIDE = {
           "点击飞机或卡片立即降落；不操作则在最长飞行时间后降落。",
           "可以稍后提醒 10 或 30 分钟，或选择跳过今天，今天的该提醒不再出现。",
           "启用“光标避让”后飞机才会避让指针；设置中可选近、中、远。飞机和卡片会一起移动，并保持在指针同一侧。",
-          "飞机仍在当前区域内时会区域内降落；只有完全离开屏幕后，才会在屏幕外降落。主窗口会显示短暂的降落提示。"
+          "点击后飞机不会反向。机头已在当前飞行区域外时立即结束；距离足够时按正常进近距离降落，距离不足时以对应侧下角为终点。 直升机、无人机、飞碟、飞艇和热气球等垂直起降机型仍在原地垂直降落。"
         ]
       ],
       [
         "6. 暂停与会议模式",
         [
-          "可以暂停 30 分钟、60 分钟或 1 小时；主窗口会显示暂停时长、倒计时和恢复时间。",
+          "暂停提醒可选择会议 30/60 分钟或暂停 1 小时。选中的时段会高亮，再次点击同一时段可取消；默认不选中任何时段。主窗口会显示倒计时，恢复前需要确认。",
           "恢复时需要确认；暂停和恢复不会显示右下角成功提示。",
           "会议模式是手动静音模式，适合在通话、演示或共享屏幕前使用。",
           "启用提醒达到 5 个或更多时，可以使用“全部暂停”。"
@@ -229,13 +229,13 @@ window.SKYLINE_GUIDE = {
           "點選飛機或卡片立即降落；不操作則在最長飛行時間後降落。",
           "可以稍後提醒 10 或 30 分鐘，或選擇跳過今天，今天的該提醒不再出現。",
           "啟用“游標避讓”後飛機才會避讓指標；設定中可選近、中、遠。飛機和卡片會一起移動，並保持在指標同一側。",
-          "飛機仍在當前區域內時會區域內降落；只有完全離開螢幕後，才會在螢幕外降落。主視窗會顯示短暫的降落提示。"
+          "點擊後飛機不會反向。機頭已在目前飛行區域外時立即結束；距離足夠時按正常進近距離降落，距離不足時以對應側下角為終點。 直升機、無人機、飛碟、飛艇和熱氣球等垂直起降機型仍在原地垂直降落。"
         ]
       ],
       [
         "6. 暫停與會議模式",
         [
-          "可以暫停 30 分鐘、60 分鐘或 1 小時；主視窗會顯示暫停時長、倒計時和恢復時間。",
+          "暫停提醒可選擇會議 30/60 分鐘或暫停 1 小時。選中的時段會高亮，再次點選同一時段可取消；預設不選中任何時段。主視窗會顯示倒計時，恢復前需要確認。",
           "恢復時需要確認；暫停和恢復不會顯示右下角成功提示。",
           "會議模式是手動靜音模式，適合在通話、演示或共享螢幕前使用。",
           "啟用提醒達到 5 個或更多時，可以使用“全部暫停”。"
@@ -322,13 +322,13 @@ window.SKYLINE_GUIDE = {
           "航空機またはカードをクリックすると即座に着陸します。操作しない場合は最大飛行時間後に着陸します。",
           "10 分または 30 分後に再通知するか、今日はスキップできます。今日のそのリマインダーは表示されません。",
           "「カーソル回避」を有効にするとポインターを避けます。設定で近い、中、遠を選択できます。航空機とカードは一緒に動き、ポインターの同じ側を保ちます。",
-          "航空機がエリア内に残っている場合はエリア内に着陸します。完全に画面外に出た場合のみ画面外に着陸し、メイン ウィンドウに短い着陸通知が表示されます。"
+          "クリックしても引き返しません。機首が現在の飛行領域の外にある場合は即座に終了します。距離が十分なら通常の着陸距離で着陸し、足りない場合は対応する下隅を終点にします。 ヘリコプター、ドローン、UFO、飛行船、気球などの垂直離着陸タイプは、引き続きその場で垂直に着陸します。"
         ]
       ],
       [
         "6. 一時停止と会議モード",
         [
-          "30 分、60 分、1 時間の一時停止ができます。メイン ウィンドウに一時停止時間、カウントダウン、再開時刻が表示されます。",
+          "一時停止では会議 30/60 分または 1 時間を選択できます。選択中の時間は強調表示され、同じ時間をもう一度クリックすると解除されます。初期状態では何も選択されていません。メイン ウィンドウにカウントダウンが表示され、再開時に確認します。",
           "再開には確認が必要です。一時停止と再開では右下の成功トーストは表示されません。",
           "会議モードは手動のサイレント モードです。通話、プレゼン、画面共有の前に便利です。",
           "有効なリマインダーが 5 個以上ある場合、「すべて一時停止」を使用できます。"
@@ -415,13 +415,13 @@ window.SKYLINE_GUIDE = {
           "항공기나 카드를 클릭하면 즉시 착륙할 수 있습니다. 아무것도 하지 않으면 최대 비행 시간 이후에 착륙합니다.",
           "10~30분 동안 다시 알림을 사용하거나 오늘 건너뛰기를 사용하여 해당 알림을 위해 하루 중 나머지 시간을 건너뜁니다.",
           "항공기는 커서 회피가 활성화된 경우에만 포인터를 피합니다. 설정에서 근거리, 중간, 원거리를 선택하세요. 항공기와 카드는 함께 움직이며 포인터의 측면을 잡습니다.",
-          "항공기가 여전히 보이는 경우 현재 영역 내부에 착륙합니다. 화면에서 완전히 떠난 후에야 외부에 착륙합니다. 메인 창에는 짧은 착륙 알림이 표시됩니다."
+          "클릭해도 되돌릴 수 없습니다. 기수가 이미 현재 비행 영역을 벗어나면 즉시 종료됩니다. 공간이 충분하면 일반 착륙 거리를 사용합니다. 그렇지 않으면 일치하는 하단 모서리를 끝점으로 사용합니다. 수직 이륙 유형(헬리콥터, 드론, UFO, 비행선, 풍선)은 여전히 ​​수직으로 제자리에 착륙합니다."
         ]
       ],
       [
         "6. 일시 정지 및 회의 모드",
         [
-          "알림을 30분 또는 60분 동안 일시 중지하거나 1시간 동안 일시 중지합니다. 기본 창에는 일시 중지 기간, 카운트다운 및 재개 시간이 표시됩니다.",
+          "회의 30/60분 또는 일시 중지를 선택합니다. 선택한 기간이 강조 표시됩니다. 취소하려면 다시 클릭하세요. 메인 페이지에는 카운트다운이 표시되고 재개 시 확인 메시지가 표시됩니다.",
           "재개하려면 확인을 요청합니다. 일시 중지 및 재개 시 오른쪽 하단에 성공 알림이 표시되지 않습니다.",
           "회의 모드는 수동 무음 모드입니다. 통화, 프레젠테이션 또는 화면 공유 세션 전에 유용합니다.",
           "모두 일시 중지는 활성화된 알림이 5개 이상인 경우 사용할 수 있습니다."
@@ -508,13 +508,13 @@ window.SKYLINE_GUIDE = {
           "Haga clic en el avión o en la tarjeta para aterrizar inmediatamente. Si no haces nada, aterriza después del tiempo máximo de vuelo.",
           "Utilice Posponer durante 10 o 30 minutos, o Saltar hoy para omitir el resto del día para ese recordatorio.",
           "La aeronave evita el puntero sólo cuando la opción para evitar el cursor está habilitada. Elija Cerca, Medio o Lejos en Configuración. El avión y la tarjeta se mueven juntos y mantienen su lado del puntero.",
-          "Si el avión aún es visible, aterriza dentro del área actual. Aterriza afuera sólo después de haber abandonado completamente la pantalla. La ventana principal muestra un breve aviso de aterrizaje."
+          "Al hacer clic nunca se invierte. Si el morro ya está fuera del área de vuelo actual, finaliza inmediatamente. Si hay suficiente espacio, utiliza la distancia de aterrizaje normal; de lo contrario, utiliza la esquina inferior correspondiente como punto final. Los tipos de despegue vertical (helicóptero, dron, OVNI, dirigible, globo) siguen aterrizando verticalmente en su lugar."
         ]
       ],
       [
         "6. Modo pausa y reunión",
         [
-          "Pausar los recordatorios durante 30 o 60 minutos, o pausar durante 1 hora. La ventana principal muestra la duración de la pausa, una cuenta regresiva y el tiempo de reanudación.",
+          "Elija Reunión de 30/60 minutos o Pausa. La duración seleccionada está resaltada; haga clic en él nuevamente para cancelar. La página principal muestra la cuenta regresiva y la reanudación solicita confirmación.",
           "La reanudación pide confirmación. Pausar y reanudar no muestran un brindis de éxito en la parte inferior derecha.",
           "El modo de reunión es un modo silencioso manual. Es útil antes de una llamada, presentación o sesión para compartir pantalla.",
           "Pausar todo está disponible cuando hay 5 o más recordatorios habilitados."
@@ -601,13 +601,13 @@ window.SKYLINE_GUIDE = {
           "Cliquez sur l'avion ou la carte pour atterrir immédiatement. Si vous ne faites rien, il atterrit après le temps de vol maximum.",
           "Utilisez Snooze pendant 10 ou 30 minutes, ou Passer aujourd'hui pour ignorer le reste de la journée pour ce rappel.",
           "L'avion évite le pointeur uniquement lorsque l'évitement du curseur est activé. Choisissez Proche, Moyen ou Loin dans Paramètres. L'avion et la carte se déplacent ensemble et tiennent leur côté du pointeur.",
-          "Si l'avion est toujours visible, il atterrit à l'intérieur de la zone actuelle. Il atterrit à l’extérieur seulement après avoir complètement quitté l’écran. La fenêtre principale affiche un bref avis d'atterrissage."
+          "Cliquer ne s’inverse jamais. Si le nez est déjà en dehors de la zone de vol actuelle, il se termine immédiatement. S'il y a suffisamment d'espace, il utilise la distance d'atterrissage normale ; sinon, il utilise le coin inférieur correspondant comme point de terminaison. Les types à décollage vertical (hélicoptère, drone, OVNI, dirigeable, ballon) atterrissent toujours verticalement sur place."
         ]
       ],
       [
         "6. Mode pause et réunion",
         [
-          "Mettez les rappels en pause pendant 30 ou 60 minutes, ou faites une pause pendant 1 heure. La fenêtre principale affiche la durée de la pause, un compte à rebours et l'heure de reprise.",
+          "Choisissez Réunion 30/60 minutes ou Pause. La durée sélectionnée est mise en surbrillance ; cliquez à nouveau dessus pour annuler. La page principale affiche le compte à rebours et la reprise demande une confirmation.",
           "La reprise demande une confirmation. La pause et la reprise n'affichent pas de toast de réussite en bas à droite.",
           "Le mode réunion est un mode silencieux manuel. C'est utile avant un appel, une présentation ou une session de partage d'écran.",
           "Mettre tout en pause est disponible lorsqu'il y a 5 rappels activés ou plus."
@@ -694,13 +694,13 @@ window.SKYLINE_GUIDE = {
           "Klicken Sie auf das Flugzeug oder die Karte, um sofort zu landen. Wenn Sie nichts tun, landet es nach der maximalen Flugzeit.",
           "Verwenden Sie „Snooze“ für 10 oder 30 Minuten oder „Heute überspringen“, um den Rest des Tages für diese Erinnerung zu überspringen.",
           "Das Flugzeug vermeidet den Zeiger nur, wenn die Cursorvermeidung aktiviert ist. Wählen Sie in den Einstellungen „Nah“, „Mittel“ oder „Fern“. Das Flugzeug und die Karte bewegen sich gemeinsam und halten ihre Seite des Zeigers.",
-          "Wenn das Flugzeug noch sichtbar ist, landet es im aktuellen Bereich. Es landet erst draußen, nachdem es den Bildschirm vollständig verlassen hat. Im Hauptfenster wird eine kurze Landebenachrichtigung angezeigt."
+          "Durch Klicken wird niemals umgekehrt. Befindet sich die Nase bereits außerhalb des aktuellen Flugbereichs, endet sie sofort. Wenn genügend Platz vorhanden ist, wird die normale Landestrecke verwendet; andernfalls wird die entsprechende untere Ecke als Endpunkt verwendet. Senkrechtstarter (Hubschrauber, Drohne, UFO, Luftschiff, Ballon) landen immer noch senkrecht auf der Stelle."
         ]
       ],
       [
         "6. Pausen- und Besprechungsmodus",
         [
-          "Unterbrechen Sie Erinnerungen für 30 oder 60 Minuten oder pausieren Sie für 1 Stunde. Im Hauptfenster werden die Pausendauer, ein Countdown und die Wiederaufnahmezeit angezeigt.",
+          "Wählen Sie „Besprechung 30/60 Minuten“ oder „Pause“. Die ausgewählte Dauer wird hervorgehoben; Klicken Sie erneut darauf, um den Vorgang abzubrechen. Auf der Hauptseite wird der Countdown angezeigt und beim Fortsetzen wird um eine Bestätigung gebeten.",
           "Beim Fortsetzen wird eine Bestätigung angefordert. Beim Anhalten und Fortsetzen wird unten rechts kein Erfolgstoast angezeigt.",
           "Der Besprechungsmodus ist ein manueller Ruhemodus. Dies ist vor einem Anruf, einer Präsentation oder einer Bildschirmfreigabesitzung nützlich.",
           "„Alle anhalten“ ist verfügbar, wenn 5 oder mehr Erinnerungen aktiviert sind."
@@ -787,13 +787,13 @@ window.SKYLINE_GUIDE = {
           "Clicca sull'aereo o sulla carta per atterrare immediatamente. Se non fai nulla, atterrerà dopo il tempo massimo di volo.",
           "Utilizza Posticipa per 10 o 30 minuti oppure Salta oggi per saltare il resto della giornata per quel promemoria.",
           "Il velivolo evita il puntatore solo quando è abilitata l'evitamento del cursore. Scegli Vicino, Medio o Lontano nelle Impostazioni. L'aereo e la carta si muovono insieme e mantengono il loro lato del puntatore.",
-          "Se l'aereo è ancora visibile, atterrerà all'interno dell'area attuale. Atterra all'esterno solo dopo aver lasciato completamente lo schermo. La finestra principale mostra un breve avviso di atterraggio."
+          "Facendo clic non si inverte mai. Se il muso è già fuori dall'attuale area di volo, termina immediatamente. Se c'è abbastanza spazio, utilizza la normale distanza di atterraggio; altrimenti utilizza l'angolo inferiore corrispondente come punto finale. I tipi di decollo verticale (elicottero, drone, UFO, dirigibile, pallone) atterrano ancora verticalmente sul posto."
         ]
       ],
       [
         "6. Modalità pausa e riunione",
         [
-          "Metti in pausa i promemoria per 30 o 60 minuti oppure mettili in pausa per 1 ora. La finestra principale mostra la durata della pausa, un conto alla rovescia e il tempo di ripresa.",
+          "Scegli Riunione 30/60 minuti o Pausa. La durata selezionata viene evidenziata; fare nuovamente clic per annullare. La pagina principale mostra il conto alla rovescia e la ripresa richiede conferma.",
           "La ripresa richiede conferma. La pausa e la ripresa non mostrano un brindisi di successo in basso a destra.",
           "La modalità riunione è una modalità silenziosa manuale. È utile prima di una chiamata, di una presentazione o di una sessione di condivisione dello schermo.",
           "Metti in pausa tutto è disponibile quando ci sono 5 o più promemoria abilitati."
@@ -880,13 +880,13 @@ window.SKYLINE_GUIDE = {
           "Klik op het vliegtuig of de kaart om onmiddellijk te landen. Als je niets doet, landt hij na de maximale vliegtijd.",
           "Gebruik Snooze gedurende 10 of 30 minuten, of Sla vandaag over om de rest van de dag over te slaan voor die herinnering.",
           "De drone vermijdt de aanwijzer alleen als Cursorvermijding is ingeschakeld. Kies Dichtbij, Gemiddeld of Ver weg in Instellingen. Het vliegtuig en de kaart bewegen samen en houden hun kant van de aanwijzer vast.",
-          "Als het vliegtuig nog steeds zichtbaar is, landt het binnen het huidige gebied. Het landt pas buiten nadat het het scherm volledig heeft verlaten. Het hoofdvenster toont een korte landingsmelding."
+          "Klikken keert nooit terug. Als de neus zich al buiten het huidige vlieggebied bevindt, eindigt deze onmiddellijk. Als er voldoende ruimte is, wordt de normale landingsafstand aangehouden; anders wordt de overeenkomende onderste hoek als eindpunt gebruikt. Verticale starttypes (helikopter, drone, UFO, luchtschip, ballon) landen nog steeds verticaal op hun plaats."
         ]
       ],
       [
         "6. Pauze- en vergadermodus",
         [
-          "Pauzeer herinneringen gedurende 30 of 60 minuten, of pauzeer gedurende 1 uur. Het hoofdvenster toont de pauzeduur, een aftelling en de hervattingstijd.",
+          "Kies Vergadering 30/60 minuten of Pauze. De geselecteerde duur is gemarkeerd; klik er nogmaals op om te annuleren. De hoofdpagina toont het aftellen en bij het hervatten wordt om bevestiging gevraagd.",
           "Bij het hervatten wordt om bevestiging gevraagd. Onderbreken en hervatten laten geen succestoast rechtsonder zien.",
           "De vergadermodus is een handmatige stille modus. Dit is handig vóór een gesprek, presentatie of schermdelingssessie.",
           "Alles pauzeren is beschikbaar als er vijf of meer ingeschakelde herinneringen zijn."
@@ -973,13 +973,13 @@ window.SKYLINE_GUIDE = {
           "Klicka på flygplanet eller kortet för att landa omedelbart. Om du inte gör något landar den efter maximal flygtid.",
           "Använd Snooze i 10 eller 30 minuter, eller Hoppa över idag för att hoppa över resten av dagen för den påminnelsen.",
           "Flygplanet undviker pekaren endast när markörundvikande är aktiverat. Välj Nära, Medium eller Långt i Inställningar. Flygplanet och kortet rör sig tillsammans och håller sin sida av pekaren.",
-          "Om flygplanet fortfarande är synligt landar det inom det aktuella området. Den landar utanför först efter att den helt har lämnat skärmen. Huvudfönstret visar ett kort landningsmeddelande."
+          "Att klicka vänder aldrig. Om näsan redan är utanför det aktuella flygområdet slutar den omedelbart. Om det finns tillräckligt med utrymme använder den det normala landningsavståndet; annars använder den det matchande nedre hörnet som slutpunkt. Vertikala starttyper (helikopter, drönare, UFO, luftskepp, ballong) landar fortfarande vertikalt på plats."
         ]
       ],
       [
         "6. Paus och mötesläge",
         [
-          "Pausa påminnelser i 30 eller 60 minuter, eller pausa i 1 timme. Huvudfönstret visar pausens varaktighet, en nedräkning och återupptagningstiden.",
+          "Välj Möte 30/60 minuter eller Pausa. Den valda varaktigheten är markerad; klicka på den igen för att avbryta. Huvudsidan visar nedräkningen och återuppta ber om bekräftelse.",
           "Återuppta ber om bekräftelse. Att pausa och återuppta visar inte någon framgång längst ned till höger.",
           "Mötesläget är ett manuellt tyst läge. Det är användbart före ett samtal, presentation eller skärmdelningssession.",
           "Pausa allt är tillgängligt när det finns 5 eller fler aktiverade påminnelser."
