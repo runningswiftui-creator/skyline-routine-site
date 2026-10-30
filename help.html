@@ -130,15 +130,17 @@
         ]}
       };
       const params = new URLSearchParams(location.search);
-      const requested = params.get('lang') || 'en-US';
-      const data = HELP[requested] || HELP[requested.split('-')[0]] || HELP['en-US'];
-      document.documentElement.lang = requested;
+      const requested = params.get('lang') || navigator.language || 'en-US';
+      const helpKeys = Object.keys(HELP);
+      const helpKey = helpKeys.find((key) => key.toLowerCase() === requested.toLowerCase()) || helpKeys.find((key) => key.split('-')[0] === requested.split('-')[0]) || 'en-US';
+      const data = HELP[helpKey];
+      document.documentElement.lang = helpKey;
       document.title = data.title + ' — Skyline Routine';
       document.getElementById('helpBack').textContent = '← ' + data.back;
       document.getElementById('helpTitle').textContent = data.title;
       document.getElementById('helpIntro').textContent = data.intro;
       document.getElementById('helpGuide').textContent = data.guide;
-      if (requested.startsWith('zh')) document.getElementById('helpGuide').href = 'downloads/Skyline-Routine-User-Guide-zh-CN.pdf';
+      document.getElementById('helpGuide').href = 'guide.html?lang=' + encodeURIComponent(helpKey);
       document.getElementById('helpGrid').innerHTML = data.cards.map(([title, body]) =>
         '<section class="help-card"><h2>' + title + '</h2><p>' + body + '</p></section>'
       ).join('');

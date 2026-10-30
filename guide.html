@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>User Guide — Skyline Routine</title>
+    <meta name="description" content="Skyline Routine complete user guide." />
+    <link rel="icon" href="assets/icon.png" />
+    <link rel="stylesheet" href="styles.css" />
+    <style>
+      .guide-wrap { max-width: 820px; }
+      .guide-intro { color: var(--muted); font-size: 18px; line-height: 1.8; }
+      .guide-toc { display: flex; flex-wrap: wrap; gap: 8px; margin: 28px 0 34px; }
+      .guide-toc a { padding: 7px 11px; border: 1px solid rgba(120,195,220,.18); border-radius: 999px; color: var(--muted); text-decoration: none; font-size: 12px; }
+      .guide-toc a:hover { border-color: rgba(120,220,240,.45); color: var(--text); }
+      .guide-section { margin: 0 0 34px; scroll-margin-top: 100px; }
+      .guide-section h2 { margin: 0 0 12px; font-size: 21px; }
+      .guide-section p { margin: 0 0 11px; color: var(--muted); line-height: 1.85; }
+      .guide-section ul { margin: 0 0 12px; padding-left: 20px; color: var(--muted); line-height: 1.85; }
+      .guide-section li { margin-bottom: 6px; }
+      .guide-back { margin-top: 30px; }
+    </style>
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="wrap header-inner">
+        <a class="brand" href="index.html"><img src="assets/icon.png" alt="" width="34" height="34" /><span>SKYLINE <b>ROUTINE</b></span></a>
+        <nav class="site-nav" aria-label="Guide navigation">
+          <a id="guideHelp" href="help.html">Quick guide</a>
+          <a href="zh.html">中文</a>
+          <a href="en.html">English</a>
+        </nav>
+      </div>
+    </header>
+    <main class="wrap legal-page guide-wrap">
+      <a class="back-link" id="guideBack" href="help.html">← Back</a>
+      <p class="eyebrow">USER GUIDE</p>
+      <h1 id="guideTitle">Skyline Routine User Guide</h1>
+      <p class="guide-intro" id="guideIntro"></p>
+      <nav class="guide-toc" id="guideToc"></nav>
+      <div id="guideSections"></div>
+      <div class="guide-back"><a class="btn btn-ghost" id="guideHelp2" href="help.html">Quick guide</a></div>
+    </main>
+    <script src="guide-data.js"></script>
+    <script>
+      const params = new URLSearchParams(location.search);
+      const requested = params.get('lang') || navigator.language || 'en-US';
+      const guideKeys = Object.keys(window.SKYLINE_GUIDE);
+      const guideKey = guideKeys.find((key) => key.toLowerCase() === requested.toLowerCase()) || guideKeys.find((key) => key.split('-')[0] === requested.split('-')[0]) || 'en-US';
+      const data = window.SKYLINE_GUIDE[guideKey];
+      document.documentElement.lang = guideKey;
+      document.title = data.title + ' — Skyline Routine';
+      document.getElementById('guideTitle').textContent = data.title;
+      document.getElementById('guideIntro').textContent = data.intro;
+      const langQuery = '?lang=' + encodeURIComponent(requested);
+      document.getElementById('guideBack').href = 'help.html' + langQuery;
+      document.getElementById('guideHelp').href = 'help.html' + langQuery;
+      document.getElementById('guideHelp2').href = 'help.html' + langQuery;
+      document.getElementById('guideToc').innerHTML = data.sections.map(([heading], i) =>
+        '<a href="#section-' + i + '">' + heading.replace(/^\d+\.\s*/, '') + '</a>'
+      ).join('');
+      document.getElementById('guideSections').innerHTML = data.sections.map(([heading, paragraphs], i) =>
+        '<section class="guide-section" id="section-' + i + '"><h2>' + heading + '</h2>' +
+        paragraphs.map((p) => '<p>' + p + '</p>').join('') + '</section>'
+      ).join('');
+    </script>
+    <script src="site.js"></script>
+  </body>
+</html>
