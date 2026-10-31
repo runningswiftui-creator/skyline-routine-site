@@ -49,6 +49,7 @@
       const guideKey = guideKeys.find((key) => key.toLowerCase() === requested.toLowerCase()) || guideKeys.find((key) => key.split('-')[0] === requested.split('-')[0]) || 'en-US';
       const data = window.SKYLINE_GUIDE[guideKey];
       document.documentElement.lang = guideKey;
+      document.documentElement.dir = guideKey === 'ar-SA' ? 'rtl' : 'ltr';
       document.title = data.title + ' — Skyline Routine';
       document.getElementById('guideTitle').textContent = data.title;
       document.getElementById('guideIntro').textContent = data.intro;

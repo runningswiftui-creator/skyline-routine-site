@@ -9,7 +9,7 @@ Skyline Routine 的产品介绍与分享页面。
 - `en.html` — 英文介绍与分享链接
 - `links.html` — 双语链接汇总
 - `help.html` — 跟随语言参数显示使用指南
-- `guide.html` — 11 种语言的完整在线使用说明
+- `guide.html` — 14 种语言的完整在线使用说明
 - `privacy.html` — 隐私说明
 - `terms.html` — 使用条款
 - `downloads/` — 中文和 English 使用说明 PDF
@@ -27,7 +27,7 @@ Skyline Routine 的产品介绍与分享页面。
 - 6 种提醒卡片样式
 - 7 种主题，包括糖果乐园与二次元
 - Pro 多时间段提醒与本周回顾
-- 11 种语言
+- 14 种语言
 - 提醒数据只保存在本机
 
 ## 发布

@@ -879,3 +879,19 @@ h1 {
   opacity: 1;
   transform: translateY(0);
 }
+
+/* Arabic (RTL) */
+html[dir="rtl"] body {
+  direction: rtl;
+}
+
+html[dir="rtl"] .guide-section ul {
+  padding-left: 0;
+  padding-right: 20px;
+}
+
+html[dir="rtl"] .guide-section,
+html[dir="rtl"] .help-card,
+html[dir="rtl"] .legal-page {
+  text-align: right;
+}
