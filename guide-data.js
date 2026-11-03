@@ -34,7 +34,7 @@ window.SKYLINE_GUIDE = {
           "Each reminder can choose an aircraft, flight height, card style, and flight area. The default is used when a reminder follows the setting.",
           "Flight areas include full screen, the four quarters, and a custom area. Drag the whole area to move it; drag an edge or corner to resize it.",
           "Custom flight paths scale to the selected area. Small areas automatically shrink the aircraft and card.",
-          "Skyline Routine has 18 aircraft and 7 themes. Free includes 4 aircraft, 2 card styles, the Skyline theme, and one custom path; Pro unlocks the rest."
+          "Skyline Routine has 18 aircraft and 7 themes. Free includes 4 aircraft, 2 card styles, the Skyline theme, and one custom path; Pro unlocks the rest. Skyline glass is translucent and shows the desktop behind it; Deep solid is fully opaque."
         ]
       ],
       [
@@ -68,7 +68,7 @@ window.SKYLINE_GUIDE = {
         "8. Pro and App Store",
         [
           "The Mac App Store version is free to download. Pro is a one-time purchase, not a subscription.",
-          "Pro unlocks unlimited reminders and paths, all 18 aircraft, all 6 card styles, all 7 themes, second time windows, and custom aircraft images.",
+          "Pro unlocks unlimited reminders and paths, all 18 aircraft, all 6 card styles, all 7 themes, second time windows, and multiple custom aircraft images.",
           "Use Restore purchases on another Mac. Payment, refunds, and restore are handled by the App Store."
         ]
       ],
@@ -76,7 +76,7 @@ window.SKYLINE_GUIDE = {
         "9. Data, backup, and sharing",
         [
           "Reminders and settings stay on this Mac. There is no account and no cloud upload.",
-          "Export backup creates a complete migration file containing reminders, default settings, themes, language, and custom flight paths. Choose where to save it.",
+          "Export backup creates a complete migration file containing reminders, default settings, themes, language, custom flight paths, and custom aircraft images. Choose where to save it.",
           "Import backup replaces reminders and imports the defaults and flight paths from the file. Temporary states such as pause, first launch, and rating cooldown stay on the current Mac.",
           "The weekly share card can be previewed and saved to a location you choose."
         ]
@@ -127,7 +127,7 @@ window.SKYLINE_GUIDE = {
           "每个提醒都可以选择机型、飞行高度、卡片样式和飞行区域；跟随设置时使用默认值。",
           "飞行区域包括全屏、四等分和自定义区域。拖动整个区域可以移动，拖动边缘或角可以调整大小。",
           "自定义飞行路径会按区域缩放；区域较小时，飞机和卡片会自动缩小。",
-          "提供 18 种机型和 7 套主题。免费版包含 4 种机型、2 种卡片样式、天际线主题和 1 条自定义路径；Pro 解锁其余内容。"
+          "提供 18 种机型和 7 套主题。免费版包含 4 种机型、2 种卡片样式、天际线主题和 1 条自定义路径；Pro 解锁其余内容。其中天际玻璃是半透明的，能透出背后的桌面；深空实色则完全不透明。"
         ]
       ],
       [
@@ -161,7 +161,7 @@ window.SKYLINE_GUIDE = {
         "8. Pro 与 App Store",
         [
           "Mac App Store 版可免费下载；Pro 是一次性买断，不是订阅。",
-          "Pro 解锁无限提醒和路径、全部 18 种机型、6 种卡片样式、7 套主题、第二个时间窗和自定义机型图片。",
+          "Pro 解锁无限提醒和路径、全部 18 种机型、6 种卡片样式、7 套主题、第二个时间窗和可保存多张的自定义机型图片。",
           "在另一台 Mac 上使用“恢复购买”；付款、退款和恢复购买均由 App Store 处理。"
         ]
       ],
@@ -169,7 +169,7 @@ window.SKYLINE_GUIDE = {
         "9. 数据、备份与分享",
         [
           "提醒和设置保存在这台 Mac 上，没有账户，也不会上传云端。",
-          "导出备份会生成完整迁移文件，包含提醒、默认设置、主题、语言和自定义飞行路径，可自选保存位置。",
+          "导出备份会生成完整迁移文件，包含提醒、默认设置、主题、语言、自定义飞行路径和自定义机型图片，可自选保存位置。",
           "导入备份会替换提醒，并导入文件中的默认值和飞行路径。暂停、首次启动、评分冷却等临时状态仍保留在当前 Mac。",
           "每周分享卡片可以预览，并保存到自选位置。"
         ]
@@ -220,7 +220,7 @@ window.SKYLINE_GUIDE = {
           "每個提醒都可以選擇機型、飛行高度、卡片樣式和飛行區域；跟隨設定時使用預設值。",
           "飛行區域包括全屏、四等分和自定義區域。拖動整個區域可以移動，拖動邊緣或角可以調整大小。",
           "自定義飛行路徑會按區域縮放；區域較小時，飛機和卡片會自動縮小。",
-          "提供 18 種機型和 7 套主題。免費版包含 4 種機型、2 種卡片樣式、天際線主題和 1 條自定義路徑；Pro 解鎖其餘內容。"
+          "提供 18 種機型和 7 套主題。免費版包含 4 種機型、2 種卡片樣式、天際線主題和 1 條自定義路徑；Pro 解鎖其餘內容。其中天際玻璃是半透明的，能透出背後的桌面；深空實色則完全不透明。"
         ]
       ],
       [
@@ -254,7 +254,7 @@ window.SKYLINE_GUIDE = {
         "8. Pro 與 App Store",
         [
           "Mac App Store 版可免費下載；Pro 是一次性買斷，不是訂閱。",
-          "Pro 解鎖無限提醒和路徑、全部 18 種機型、6 種卡片樣式、7 套主題、第二個時間窗和自定義機型圖片。",
+          "Pro 解鎖無限提醒和路徑、全部 18 種機型、6 種卡片樣式、7 套主題、第二個時間窗和可儲存多張的自訂機型圖片。",
           "在另一臺 Mac 上使用“恢復購買”；付款、退款和恢復購買均由 App Store 處理。"
         ]
       ],
@@ -262,7 +262,7 @@ window.SKYLINE_GUIDE = {
         "9. 資料、備份與分享",
         [
           "提醒和設定儲存在這臺 Mac 上，沒有賬戶，也不會上傳雲端。",
-          "匯出備份會生成完整遷移檔案，包含提醒、預設設定、主題、語言和自定義飛行路徑，可自選儲存位置。",
+          "匯出備份會生成完整遷移檔案，包含提醒、預設設定、主題、語言、自訂飛行路徑和自訂機型圖片，可自選儲存位置。",
           "匯入備份會替換提醒，並匯入檔案中的預設值和飛行路徑。暫停、首次啟動、評分冷卻等臨時狀態仍保留在當前 Mac。",
           "每週分享卡片可以預覽，並儲存到自選位置。"
         ]
@@ -313,7 +313,7 @@ window.SKYLINE_GUIDE = {
           "各リマインダーで機体、飛行高度、カード スタイル、フライト エリアを選択できます。設定に従う場合はデフォルトを使用します。",
           "フライト エリアは全画面、4 分割、カスタムから選択します。エリア全体をドラッグして移動し、端や角をドラッグしてサイズを変更します。",
           "カスタム飛行経路はエリアに合わせて拡大縮小します。小さいエリアでは航空機とカードも自動で小さくなります。",
-          "18 機種、7 テーマを用意しています。無料版は 4 機種、2 カード スタイル、Skyline テーマ、1 カスタム経路。Pro で残りを解除できます。"
+          "18 機種、7 テーマを用意しています。無料版は 4 機種、2 カード スタイル、Skyline テーマ、1 カスタム経路。Pro で残りを解除できます。Skyline ガラスは半透明で背景のデスクトップが透け、Deep solid は完全に不透明です。"
         ]
       ],
       [
@@ -347,7 +347,7 @@ window.SKYLINE_GUIDE = {
         "8. Pro と App Store",
         [
           "Mac App Store 版は無料でダウンロードできます。Pro はサブスクリプションではなく買い切りです。",
-          "Pro では無制限のリマインダーと経路、18 機種、6 カード スタイル、7 テーマ、2 つ目の時間枠、カスタム機体画像を解除できます。",
+          "Pro では無制限のリマインダーと経路、18 機種、6 カード スタイル、7 テーマ、2 つ目の時間枠、複数のカスタム機体画像を解除できます。",
           "別の Mac では「購入を復元」を使用します。支払い、返金、復元は App Store が処理します。"
         ]
       ],
@@ -355,7 +355,7 @@ window.SKYLINE_GUIDE = {
         "9. データ、バックアップ、共有",
         [
           "リマインダーと設定はこの Mac に保存されます。アカウントもクラウド アップロードもありません。",
-          "バックアップを書き出すと、リマインダー、デフォルト設定、テーマ、言語、カスタム飛行経路を含む完全な移行ファイルを作成できます。保存先を選択できます。",
+          "バックアップを書き出すと、リマインダー、デフォルト設定、テーマ、言語、カスタム飛行経路、カスタム機体画像を含む完全な移行ファイルを作成できます。保存先を選択できます。",
           "バックアップを読み込むとリマインダーが置き換わり、ファイル内のデフォルトと飛行経路が読み込まれます。一時停止、初回起動、評価クールダウンなどの一時状態は現在の Mac に残ります。",
           "週間共有カードはプレビューして、選んだ場所に保存できます。"
         ]
@@ -406,7 +406,7 @@ window.SKYLINE_GUIDE = {
           "각 알림은 항공기, 비행 높이, 카드 스타일 및 비행 지역을 선택할 수 있습니다. 알림이 설정을 따를 때 기본값이 사용됩니다.",
           "비행 영역에는 전체 화면, 4개 구역 및 사용자 정의 영역이 포함됩니다. 이동하려면 전체 영역을 드래그하세요. 크기를 조정하려면 가장자리나 모서리를 드래그하세요.",
           "사용자 정의 비행 경로는 선택한 지역에 맞게 조정됩니다. 작은 영역은 항공기와 카드를 자동으로 축소합니다.",
-          "스카이라인 루틴에는 18개의 항공기와 7개의 테마가 있습니다. 무료에는 항공기 4대, 카드 스타일 2개, 스카이라인 테마 및 사용자 정의 경로 1개가 포함됩니다. Pro는 나머지 잠금을 해제합니다."
+          "스카이라인 루틴에는 18개의 항공기와 7개의 테마가 있습니다. 무료에는 항공기 4대, 카드 스타일 2개, 스카이라인 테마 및 사용자 정의 경로 1개가 포함됩니다. Pro는 나머지 잠금을 해제합니다. Skyline glass는 반투명이라 뒤의 데스크톱이 비치고, Deep solid는 완전히 불투명합니다."
         ]
       ],
       [
@@ -440,7 +440,7 @@ window.SKYLINE_GUIDE = {
         "8. 프로와 앱스토어",
         [
           "Mac App Store 버전은 무료로 다운로드할 수 있습니다. Pro는 구독이 아닌 일회성 구매입니다.",
-          "Pro는 무제한 알림 및 경로, 18개 항공기, 6개 카드 스타일, 7개 테마, 두 번째 시간 창, 맞춤형 항공기 이미지를 잠금 해제합니다.",
+          "Pro는 무제한 알림 및 경로, 18개 항공기, 6개 카드 스타일, 7개 테마, 두 번째 시간 창, 여러 개의 맞춤형 항공기 이미지를 잠금 해제합니다.",
           "다른 Mac에서 구매 복원을 사용하세요. 결제, 환불, 복원은 App Store에서 처리됩니다."
         ]
       ],
@@ -448,7 +448,7 @@ window.SKYLINE_GUIDE = {
         "9. 데이터, 백업 및 공유",
         [
           "미리 알림과 설정은 이 Mac에 유지됩니다. 계정도 없고 클라우드 업로드도 없습니다.",
-          "백업 내보내기는 미리 알림, 기본 설정, 테마, 언어 및 사용자 정의 비행 경로가 포함된 완전한 마이그레이션 파일을 생성합니다. 저장할 위치를 선택하세요.",
+          "백업 내보내기는 미리 알림, 기본 설정, 테마, 언어, 사용자 정의 비행 경로 및 맞춤형 항공기 이미지가 포함된 완전한 마이그레이션 파일을 생성합니다. 저장할 위치를 선택하세요.",
           "백업 가져오기는 미리 알림을 대체하고 파일에서 기본값과 비행 경로를 가져옵니다. 일시 중지, 첫 번째 실행, 평가 대기 시간과 같은 임시 상태는 현재 Mac에 유지됩니다.",
           "주간 공유 카드를 미리 확인하고 선택한 위치에 저장할 수 있습니다."
         ]
@@ -499,7 +499,7 @@ window.SKYLINE_GUIDE = {
           "Cada recordatorio puede elegir una aeronave, altura de vuelo, estilo de tarjeta y área de vuelo. El valor predeterminado se utiliza cuando un recordatorio sigue a la configuración.",
           "Las áreas de vuelo incluyen pantalla completa, cuatro cuartos y un área personalizada. Arrastra toda el área para moverla; arrastre un borde o esquina para cambiar su tamaño.",
           "Las rutas de vuelo personalizadas se adaptan al área seleccionada. Las áreas pequeñas encogen automáticamente el avión y la tarjeta.",
-          "Skyline Routine tiene 18 aviones y 7 temas. Gratis incluye 4 aviones, 2 estilos de cartas, el tema Skyline y un camino personalizado; Pro desbloquea el resto."
+          "Skyline Routine tiene 18 aviones y 7 temas. Gratis incluye 4 aviones, 2 estilos de cartas, el tema Skyline y un camino personalizado; Pro desbloquea el resto. Skyline glass es translúcido y deja ver el escritorio; Deep solid es completamente opaco."
         ]
       ],
       [
@@ -533,7 +533,7 @@ window.SKYLINE_GUIDE = {
         "8. Tienda profesional y de aplicaciones",
         [
           "La versión de Mac App Store se puede descargar gratis. Pro es una compra única, no una suscripción.",
-          "Pro desbloquea recordatorios y rutas ilimitados, los 18 aviones, los 6 estilos de tarjetas, los 7 temas, ventanas de segunda vez e imágenes de aviones personalizadas.",
+          "Pro desbloquea recordatorios y rutas ilimitados, los 18 aviones, los 6 estilos de tarjetas, los 7 temas, ventanas de segunda vez y varias imágenes de aviones personalizadas.",
           "Utilice Restaurar compras en otra Mac. El pago, los reembolsos y la restauración están a cargo de la App Store."
         ]
       ],
@@ -541,7 +541,7 @@ window.SKYLINE_GUIDE = {
         "9. Datos, copias de seguridad y uso compartido",
         [
           "Los recordatorios y las configuraciones permanecen en esta Mac. No hay cuenta ni carga en la nube.",
-          "La copia de seguridad de exportación crea un archivo de migración completo que contiene recordatorios, configuraciones predeterminadas, temas, idiomas y rutas de vuelo personalizadas. Elige dónde guardarlo.",
+          "La copia de seguridad de exportación crea un archivo de migración completo que contiene recordatorios, configuraciones predeterminadas, temas, idiomas, rutas de vuelo personalizadas e imágenes de aviones personalizadas. Elige dónde guardarlo.",
           "La copia de seguridad de importación reemplaza los recordatorios e importa los valores predeterminados y las rutas de vuelo del archivo. Los estados temporales como pausa, primer inicio y tiempo de reutilización de calificación permanecen en la Mac actual.",
           "La tarjeta compartida semanal se puede obtener una vista previa y guardarse en la ubicación que elija."
         ]
@@ -592,7 +592,7 @@ window.SKYLINE_GUIDE = {
           "Chaque rappel peut choisir un avion, une hauteur de vol, un style de carte et une zone de vol. La valeur par défaut est utilisée lorsqu'un rappel suit le paramètre.",
           "Les zones de vol comprennent le plein écran, les quatre quarts et une zone personnalisée. Faites glisser toute la zone pour la déplacer ; faites glisser un bord ou un coin pour le redimensionner.",
           "Les trajectoires de vol personnalisées s'adaptent à la zone sélectionnée. Les petites zones rétrécissent automatiquement l'avion et la carte.",
-          "Skyline Routine comprend 18 avions et 7 thèmes. Gratuit comprend 4 avions, 2 styles de cartes, le thème Skyline et un chemin personnalisé ; Pro débloque le reste."
+          "Skyline Routine comprend 18 avions et 7 thèmes. Gratuit comprend 4 avions, 2 styles de cartes, le thème Skyline et un chemin personnalisé ; Pro débloque le reste. Skyline glass est translucide et laisse voir le bureau ; Deep solid est entièrement opaque."
         ]
       ],
       [
@@ -626,7 +626,7 @@ window.SKYLINE_GUIDE = {
         "8. Pro et App Store",
         [
           "La version Mac App Store est téléchargeable gratuitement. Pro est un achat unique, pas un abonnement.",
-          "Pro débloque des rappels et des chemins illimités, les 18 avions, les 6 styles de cartes, les 7 thèmes, les secondes fenêtres temporelles et les images d'avion personnalisées.",
+          "Pro débloque des rappels et des chemins illimités, les 18 avions, les 6 styles de cartes, les 7 thèmes, les secondes fenêtres temporelles et plusieurs images d'avion personnalisées.",
           "Utilisez Restaurer les achats sur un autre Mac. Le paiement, les remboursements et la restauration sont gérés par l'App Store."
         ]
       ],
@@ -634,7 +634,7 @@ window.SKYLINE_GUIDE = {
         "9. Données, sauvegarde et partage",
         [
           "Les rappels et les paramètres restent sur ce Mac. Il n'y a pas de compte ni de téléchargement vers le cloud.",
-          "La sauvegarde d'exportation crée un fichier de migration complet contenant des rappels, des paramètres par défaut, des thèmes, une langue et des trajectoires de vol personnalisées. Choisissez où l'enregistrer.",
+          "La sauvegarde d'exportation crée un fichier de migration complet contenant des rappels, des paramètres par défaut, des thèmes, une langue, des trajectoires de vol personnalisées et des images d'avion personnalisées. Choisissez où l'enregistrer.",
           "L'importation de sauvegarde remplace les rappels et importe les valeurs par défaut et les trajectoires de vol du fichier. Les états temporaires tels que la pause, le premier lancement et le temps de recharge restent sur le Mac actuel.",
           "La carte de partage hebdomadaire peut être prévisualisée et enregistrée à l'emplacement de votre choix."
         ]
@@ -685,7 +685,7 @@ window.SKYLINE_GUIDE = {
           "Für jede Erinnerung können ein Flugzeug, eine Flughöhe, ein Kartenstil und ein Fluggebiet ausgewählt werden. Der Standardwert wird verwendet, wenn eine Erinnerung auf die Einstellung folgt.",
           "Zu den Flugbereichen gehören der Vollbildmodus, die vier Viertel und ein benutzerdefinierter Bereich. Ziehen Sie den gesamten Bereich, um ihn zu verschieben. Ziehen Sie eine Kante oder Ecke, um deren Größe zu ändern.",
           "Benutzerdefinierte Flugrouten passen sich dem ausgewählten Bereich an. Kleine Bereiche verkleinern automatisch das Flugzeug und die Karte.",
-          "Skyline Routine verfügt über 18 Flugzeuge und 7 Themen. Kostenlos beinhaltet 4 Flugzeuge, 2 Kartenstile, das Skyline-Thema und einen benutzerdefinierten Pfad; Pro schaltet den Rest frei."
+          "Skyline Routine verfügt über 18 Flugzeuge und 7 Themen. Kostenlos beinhaltet 4 Flugzeuge, 2 Kartenstile, das Skyline-Thema und einen benutzerdefinierten Pfad; Pro schaltet den Rest frei. Skyline Glass ist durchscheinend und lässt den Desktop durchscheinen; Deep Solid ist vollständig deckend."
         ]
       ],
       [
@@ -719,7 +719,7 @@ window.SKYLINE_GUIDE = {
         "8. Pro und App Store",
         [
           "Die Mac App Store-Version kann kostenlos heruntergeladen werden. Pro ist ein einmaliger Kauf, kein Abonnement.",
-          "Pro schaltet unbegrenzte Erinnerungen und Pfade, alle 18 Flugzeuge, alle 6 Kartenstile, alle 7 Themen, zweite Zeitfenster und benutzerdefinierte Flugzeugbilder frei.",
+          "Pro schaltet unbegrenzte Erinnerungen und Pfade, alle 18 Flugzeuge, alle 6 Kartenstile, alle 7 Themen, zweite Zeitfenster und mehrere benutzerdefinierte Flugzeugbilder frei.",
           "Verwenden Sie „Käufe wiederherstellen“ auf einem anderen Mac. Zahlung, Rückerstattung und Wiederherstellung werden vom App Store abgewickelt."
         ]
       ],
@@ -727,7 +727,7 @@ window.SKYLINE_GUIDE = {
         "9. Daten, Backup und Teilen",
         [
           "Erinnerungen und Einstellungen bleiben auf diesem Mac. Es gibt kein Konto und keinen Cloud-Upload.",
-          "Durch die Exportsicherung wird eine vollständige Migrationsdatei erstellt, die Erinnerungen, Standardeinstellungen, Themen, Sprache und benutzerdefinierte Flugpfade enthält. Wählen Sie den Speicherort aus.",
+          "Durch die Exportsicherung wird eine vollständige Migrationsdatei erstellt, die Erinnerungen, Standardeinstellungen, Themen, Sprache, benutzerdefinierte Flugpfade und benutzerdefinierte Flugzeugbilder enthält. Wählen Sie den Speicherort aus.",
           "Die Importsicherung ersetzt Erinnerungen und importiert die Standardeinstellungen und Flugrouten aus der Datei. Temporäre Zustände wie Pause, erster Start und Bewertungsabklingzeit bleiben auf dem aktuellen Mac bestehen.",
           "Die wöchentliche Aktienkarte kann in der Vorschau angezeigt und an einem von Ihnen gewählten Ort gespeichert werden."
         ]
@@ -778,7 +778,7 @@ window.SKYLINE_GUIDE = {
           "Per ogni promemoria è possibile scegliere un aereo, un'altezza di volo, uno stile di carta e un'area di volo. L'impostazione predefinita viene utilizzata quando un promemoria segue l'impostazione.",
           "Le aree di volo includono lo schermo intero, i quattro quarti e un'area personalizzata. Trascina l'intera area per spostarla; trascina un bordo o un angolo per ridimensionarlo.",
           "I percorsi di volo personalizzati si adattano all'area selezionata. Piccole aree rimpiccioliscono automaticamente l'aereo e la carta.",
-          "Skyline Routine ha 18 aerei e 7 temi. La versione gratuita include 4 aerei, 2 stili di carte, il tema Skyline e un percorso personalizzato; Pro sblocca il resto."
+          "Skyline Routine ha 18 aerei e 7 temi. La versione gratuita include 4 aerei, 2 stili di carte, il tema Skyline e un percorso personalizzato; Pro sblocca il resto. Skyline glass è traslucido e lascia vedere il desktop; Deep solid è completamente opaco."
         ]
       ],
       [
@@ -812,7 +812,7 @@ window.SKYLINE_GUIDE = {
         "8. Pro e App Store",
         [
           "La versione del Mac App Store può essere scaricata gratuitamente. Pro è un acquisto una tantum, non un abbonamento.",
-          "Pro sblocca promemoria e percorsi illimitati, tutti i 18 aerei, tutti i 6 stili di carte, tutti i 7 temi, finestre di seconda volta e immagini di aerei personalizzate.",
+          "Pro sblocca promemoria e percorsi illimitati, tutti i 18 aerei, tutti i 6 stili di carte, tutti i 7 temi, finestre di seconda volta e più immagini di aerei personalizzate.",
           "Utilizza Ripristina acquisti su un altro Mac. Pagamento, rimborsi e ripristino sono gestiti dall'App Store."
         ]
       ],
@@ -820,7 +820,7 @@ window.SKYLINE_GUIDE = {
         "9. Dati, backup e condivisione",
         [
           "Promemoria e impostazioni rimangono su questo Mac. Non esiste un account e nessun caricamento nel cloud.",
-          "Il backup dell'esportazione crea un file di migrazione completo contenente promemoria, impostazioni predefinite, temi, lingua e percorsi di volo personalizzati. Scegli dove salvarlo.",
+          "Il backup dell'esportazione crea un file di migrazione completo contenente promemoria, impostazioni predefinite, temi, lingua, percorsi di volo personalizzati e immagini di aerei personalizzate. Scegli dove salvarlo.",
           "Il backup di importazione sostituisce i promemoria e importa le impostazioni predefinite e le rotte di volo dal file. Gli stati temporanei come pausa, primo avvio e raffreddamento della valutazione rimangono sul Mac corrente.",
           "La scheda di condivisione settimanale può essere visualizzata in anteprima e salvata nella posizione scelta."
         ]
@@ -871,7 +871,7 @@ window.SKYLINE_GUIDE = {
           "Bij elke herinnering kunt u een vliegtuig, vluchthoogte, kaartstijl en vluchtgebied kiezen. De standaardwaarde wordt gebruikt wanneer een herinnering volgt op de instelling.",
           "Vluchtgebieden omvatten volledig scherm, de vier kwartalen en een aangepast gebied. Sleep het hele gebied om het te verplaatsen; sleep een rand of hoek om het formaat te wijzigen.",
           "Aangepaste vliegroutes schalen naar het geselecteerde gebied. Kleine gebieden verkleinen automatisch het vliegtuig en de kaart.",
-          "Skyline Routine heeft 18 vliegtuigen en 7 thema's. Gratis bevat 4 vliegtuigen, 2 kaartstijlen, het Skyline-thema en één aangepast pad; Pro ontgrendelt de rest."
+          "Skyline Routine heeft 18 vliegtuigen en 7 thema's. Gratis bevat 4 vliegtuigen, 2 kaartstijlen, het Skyline-thema en één aangepast pad; Pro ontgrendelt de rest. Skyline glass is doorschijnend en laat het bureaublad erdoorheen zien; Deep solid is volledig ondoorzichtig."
         ]
       ],
       [
@@ -905,7 +905,7 @@ window.SKYLINE_GUIDE = {
         "8. Pro- en App Store",
         [
           "De Mac App Store-versie is gratis te downloaden. Pro is een eenmalige aankoop, geen abonnement.",
-          "Pro ontgrendelt onbeperkte herinneringen en paden, alle 18 vliegtuigen, alle 6 kaartstijlen, alle 7 thema's, tweede tijdvensters en aangepaste vliegtuigafbeeldingen.",
+          "Pro ontgrendelt onbeperkte herinneringen en paden, alle 18 vliegtuigen, alle 6 kaartstijlen, alle 7 thema's, tweede tijdvensters en meerdere aangepaste vliegtuigafbeeldingen.",
           "Gebruik Aankopen herstellen op een andere Mac. Betaling, terugbetalingen en herstel worden afgehandeld door de App Store."
         ]
       ],
@@ -913,7 +913,7 @@ window.SKYLINE_GUIDE = {
         "9. Gegevens, back-up en delen",
         [
           "Herinneringen en instellingen blijven op deze Mac staan. Er is geen account en geen cloudupload.",
-          "Met een exportback-up wordt een compleet migratiebestand gemaakt met herinneringen, standaardinstellingen, thema's, taal en aangepaste vliegroutes. Kies waar u het wilt opslaan.",
+          "Met een exportback-up wordt een compleet migratiebestand gemaakt met herinneringen, standaardinstellingen, thema's, taal, aangepaste vliegroutes en aangepaste vliegtuigafbeeldingen. Kies waar u het wilt opslaan.",
           "Importback-up vervangt herinneringen en importeert de standaardinstellingen en vliegroutes uit het bestand. Tijdelijke statussen zoals pauzeren, eerste keer opstarten en afkoelperiode voor beoordelingen blijven op de huidige Mac staan.",
           "De wekelijkse deelkaart kan worden bekeken en opgeslagen op een door u gekozen locatie."
         ]
@@ -964,7 +964,7 @@ window.SKYLINE_GUIDE = {
           "Varje påminnelse kan välja ett flygplan, flyghöjd, kortstil och flygområde. Standardinställningen används när en påminnelse följer inställningen.",
           "Flygområdena inkluderar helskärm, de fyra kvarteren och ett anpassat område. Dra hela området för att flytta det; dra en kant eller hörn för att ändra storlek på den.",
           "Anpassade flygvägar skala till det valda området. Små områden krymper automatiskt flygplanet och kortet.",
-          "Skyline Routine har 18 flygplan och 7 teman. Gratis inkluderar 4 flygplan, 2 kortstilar, Skyline-temat och en anpassad bana; Pro låser upp resten."
+          "Skyline Routine har 18 flygplan och 7 teman. Gratis inkluderar 4 flygplan, 2 kortstilar, Skyline-temat och en anpassad bana; Pro låser upp resten. Skyline glass är genomskinligt och visar skrivbordet bakom; Deep solid är helt ogenomskinligt."
         ]
       ],
       [
@@ -998,7 +998,7 @@ window.SKYLINE_GUIDE = {
         "8. Pro och App Store",
         [
           "Mac App Store-versionen är gratis att ladda ner. Pro är ett engångsköp, inte ett abonnemang.",
-          "Pro låser upp obegränsade påminnelser och vägar, alla 18 flygplan, alla 6 kortstilar, alla 7 teman, andragångsfönster och anpassade flygplansbilder.",
+          "Pro låser upp obegränsade påminnelser och vägar, alla 18 flygplan, alla 6 kortstilar, alla 7 teman, andragångsfönster och flera anpassade flygplansbilder.",
           "Använd Återställ köp på en annan Mac. Betalning, återbetalningar och återställning hanteras av App Store."
         ]
       ],
@@ -1006,7 +1006,7 @@ window.SKYLINE_GUIDE = {
         "9. Data, säkerhetskopiering och delning",
         [
           "Påminnelser och inställningar finns kvar på denna Mac. Det finns inget konto och ingen molnuppladdning.",
-          "Exportera säkerhetskopia skapar en komplett migreringsfil som innehåller påminnelser, standardinställningar, teman, språk och anpassade flygvägar. Välj var du vill spara den.",
+          "Exportera säkerhetskopia skapar en komplett migreringsfil som innehåller påminnelser, standardinställningar, teman, språk, anpassade flygvägar och anpassade flygplansbilder. Välj var du vill spara den.",
           "Importera säkerhetskopia ersätter påminnelser och importerar standardinställningarna och flygvägarna från filen. Tillfälliga tillstånd som paus, första lansering och nedkylning av betyg förblir på nuvarande Mac.",
           "Veckodelningskortet kan förhandsgranskas och sparas på en plats du väljer."
         ]
@@ -1057,7 +1057,7 @@ window.SKYLINE_GUIDE = {
           "Для каждого напоминания можно выбрать самолёт, высоту полёта, стиль карточки и зону полёта. Значение по умолчанию используется, если напоминание следует настройке.",
           "Зоны полёта: весь экран, четыре четверти и своя зона. Перетаскивайте всю зону, чтобы переместить её; тяните за край или угол, чтобы изменить размер.",
           "Свои маршруты масштабируются под выбранную зону. В маленьких зонах самолёт и карточка автоматически уменьшаются.",
-          "В Skyline Routine 18 самолётов и 7 тем. Бесплатная версия включает 4 самолёта, 2 стиля карточек, тему Skyline и один свой маршрут; Pro открывает остальное."
+          "В Skyline Routine 18 самолётов и 7 тем. Бесплатная версия включает 4 самолёта, 2 стиля карточек, тему Skyline и один свой маршрут; Pro открывает остальное. Skyline glass полупрозрачный и показывает рабочий стол за ним; Deep solid полностью непрозрачный."
         ]
       ],
       [
@@ -1091,7 +1091,7 @@ window.SKYLINE_GUIDE = {
         "8. Pro и App Store",
         [
           "Версию из Mac App Store можно скачать бесплатно. Pro — это разовая покупка, а не подписка.",
-          "Pro открывает неограниченное число напоминаний и маршрутов, все 18 самолётов, все 6 стилей карточек, все 7 тем, вторые временные окна и свои изображения самолётов.",
+          "Pro открывает неограниченное число напоминаний и маршрутов, все 18 самолётов, все 6 стилей карточек, все 7 тем, вторые временные окна и несколько своих изображений самолётов.",
           "Используйте «Восстановить покупки» на другом Mac. Оплату, возвраты и восстановление обрабатывает App Store."
         ]
       ],
@@ -1099,7 +1099,7 @@ window.SKYLINE_GUIDE = {
         "9. Данные, резервные копии и публикация",
         [
           "Напоминания и настройки хранятся на этом Mac. Аккаунта нет, загрузки в облако нет.",
-          "«Экспорт резервной копии» создаёт полный файл для переноса с напоминаниями, настройками по умолчанию, темами, языком и своими маршрутами. Выберите место сохранения.",
+          "«Экспорт резервной копии» создаёт полный файл для переноса с напоминаниями, настройками по умолчанию, темами, языком, своими маршрутами и своими изображениями самолётов. Выберите место сохранения.",
           "«Импорт резервной копии» заменяет напоминания и импортирует значения по умолчанию и маршруты из файла. Временные состояния, такие как пауза, первый запуск и задержка оценки, остаются на текущем Mac.",
           "Недельную карточку для публикации можно просмотреть и сохранить в выбранное место."
         ]
@@ -1150,7 +1150,7 @@ window.SKYLINE_GUIDE = {
           "Mỗi nhắc nhở có thể chọn máy bay, độ cao bay, kiểu thẻ và vùng bay. Giá trị mặc định được dùng khi nhắc nhở theo cài đặt.",
           "Vùng bay gồm toàn màn hình, bốn phần tư và vùng tùy chỉnh. Kéo toàn bộ vùng để di chuyển; kéo cạnh hoặc góc để thay đổi kích thước.",
           "Đường bay tùy chỉnh co giãn theo vùng đã chọn. Vùng nhỏ sẽ tự động thu nhỏ máy bay và thẻ.",
-          "Skyline Routine có 18 máy bay và 7 chủ đề. Bản miễn phí gồm 4 máy bay, 2 kiểu thẻ, chủ đề Skyline và một đường bay tùy chỉnh; Pro mở khóa phần còn lại."
+          "Skyline Routine có 18 máy bay và 7 chủ đề. Bản miễn phí gồm 4 máy bay, 2 kiểu thẻ, chủ đề Skyline và một đường bay tùy chỉnh; Pro mở khóa phần còn lại. Skyline glass trong mờ và lộ ra màn hình phía sau; Deep solid hoàn toàn không trong suốt."
         ]
       ],
       [
@@ -1184,7 +1184,7 @@ window.SKYLINE_GUIDE = {
         "8. Pro và App Store",
         [
           "Phiên bản Mac App Store miễn phí tải về. Pro là mua một lần, không phải đăng ký.",
-          "Pro mở khóa nhắc nhở và đường bay không giới hạn, toàn bộ 18 máy bay, toàn bộ 6 kiểu thẻ, toàn bộ 7 chủ đề, khung thời gian thứ hai và hình máy bay tùy chỉnh.",
+          "Pro mở khóa nhắc nhở và đường bay không giới hạn, toàn bộ 18 máy bay, toàn bộ 6 kiểu thẻ, toàn bộ 7 chủ đề, khung thời gian thứ hai và nhiều hình máy bay tùy chỉnh.",
           "Dùng Khôi phục giao dịch trên Mac khác. Thanh toán, hoàn tiền và khôi phục do App Store xử lý."
         ]
       ],
@@ -1192,7 +1192,7 @@ window.SKYLINE_GUIDE = {
         "9. Dữ liệu, sao lưu và chia sẻ",
         [
           "Nhắc nhở và cài đặt được lưu trên Mac này. Không có tài khoản và không tải lên đám mây.",
-          "Xuất bản sao lưu tạo tệp di chuyển đầy đủ gồm nhắc nhở, cài đặt mặc định, chủ đề, ngôn ngữ và đường bay tùy chỉnh. Chọn nơi lưu.",
+          "Xuất bản sao lưu tạo tệp di chuyển đầy đủ gồm nhắc nhở, cài đặt mặc định, chủ đề, ngôn ngữ, đường bay tùy chỉnh và hình máy bay tùy chỉnh. Chọn nơi lưu.",
           "Nhập bản sao lưu thay thế nhắc nhở và nhập cài đặt mặc định cùng đường bay từ tệp. Các trạng thái tạm thời như tạm dừng, lần khởi chạy đầu và thời gian chờ đánh giá vẫn ở trên Mac hiện tại.",
           "Thẻ chia sẻ hằng tuần có thể xem trước và lưu vào vị trí bạn chọn."
         ]
@@ -1243,7 +1243,7 @@ window.SKYLINE_GUIDE = {
           "يمكن لكل تذكير اختيار طائرة وارتفاع طيران ونمط بطاقة ومنطقة طيران. تُستخدم القيمة الافتراضية عندما يتبع التذكير الإعداد.",
           "تشمل مناطق الطيران الشاشة الكاملة والأرباع الأربعة ومنطقة مخصصة. اسحب المنطقة كاملة لنقلها؛ واسحب حافة أو زاوية لتغيير حجمها.",
           "تتكيف مسارات الطيران المخصصة مع المنطقة المحددة. المناطق الصغيرة تصغّر الطائرة والبطاقة تلقائيًا.",
-          "يضم Skyline Routine 18 طائرة و7 سمات. تتضمن النسخة المجانية 4 طائرات ونمطي بطاقات وسمة Skyline ومسارًا مخصصًا واحدًا؛ ويفتح Pro الباقي."
+          "يضم Skyline Routine 18 طائرة و7 سمات. تتضمن النسخة المجانية 4 طائرات ونمطي بطاقات وسمة Skyline ومسارًا مخصصًا واحدًا؛ ويفتح Pro الباقي. زجاج Skyline شفاف جزئيًا ويظهر سطح المكتب خلفه، بينما Deep solid معتم تمامًا."
         ]
       ],
       [
@@ -1277,7 +1277,7 @@ window.SKYLINE_GUIDE = {
         "8. Pro وApp Store",
         [
           "نسخة Mac App Store مجانية للتنزيل. Pro عملية شراء لمرة واحدة، وليست اشتراكًا.",
-          "يفتح Pro تذكيرات ومسارات غير محدودة، وجميع الطائرات الـ18، وجميع أنماط البطاقات الـ6، وجميع السمات الـ7، ونوافذ زمنية ثانية، وصور طائرات مخصصة.",
+          "يفتح Pro تذكيرات ومسارات غير محدودة، وجميع الطائرات الـ18، وجميع أنماط البطاقات الـ6، وجميع السمات الـ7، ونوافذ زمنية ثانية، وعدة صور طائرات مخصصة.",
           "استخدم «استعادة المشتريات» على Mac آخر. يتولى App Store الدفع والاسترداد والاستعادة."
         ]
       ],
@@ -1285,7 +1285,7 @@ window.SKYLINE_GUIDE = {
         "9. البيانات والنسخ الاحتياطي والمشاركة",
         [
           "تبقى التذكيرات والإعدادات على هذا الـMac. لا يوجد حساب ولا رفع إلى السحابة.",
-          "ينشئ «تصدير نسخة احتياطية» ملف ترحيل كاملًا يتضمن التذكيرات والإعدادات الافتراضية والسمات واللغة ومسارات الطيران المخصصة. اختر مكان حفظه.",
+          "ينشئ «تصدير نسخة احتياطية» ملف ترحيل كاملًا يتضمن التذكيرات والإعدادات الافتراضية والسمات واللغة ومسارات الطيران المخصصة وصور الطائرات المخصصة. اختر مكان حفظه.",
           "يستبدل «استيراد نسخة احتياطية» التذكيرات ويستورد الإعدادات الافتراضية ومسارات الطيران من الملف. تبقى الحالات المؤقتة مثل الإيقاف المؤقت وأول تشغيل ومهلة التقييم على الـMac الحالي.",
           "يمكن معاينة بطاقة المشاركة الأسبوعية وحفظها في مكان تختاره."
         ]
