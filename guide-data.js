@@ -34,7 +34,7 @@ window.SKYLINE_GUIDE = {
           "Each reminder can choose an aircraft, flight height, card style, and flight area. The default is used when a reminder follows the setting.",
           "Flight areas include full screen, the four quarters, and a custom area. Drag the whole area to move it; drag an edge or corner to resize it.",
           "Custom flight paths scale to the selected area. Small areas automatically shrink the aircraft and card.",
-          "Skyline Routine has 18 aircraft and 7 themes. Free includes 4 aircraft, 2 card styles, the Skyline theme, and one custom path; Pro unlocks the rest. Skyline glass is translucent and shows the desktop behind it; Deep solid is fully opaque."
+          "Skyline Routine has 18 aircraft and 7 themes. Free includes 5 aircraft, 2 card styles, the Skyline theme, and one custom path; Pro unlocks the rest. Skyline glass is translucent and shows the desktop behind it; Deep solid is fully opaque."
         ]
       ],
       [
@@ -58,8 +58,8 @@ window.SKYLINE_GUIDE = {
       [
         "7. Settings",
         [
-          "Appearance controls light or dark mode, language, theme, and the default reminder card style.",
-          "Runtime controls launch at login, takeoff animation, gentle mode, pause, cursor avoidance, flight area, preview, and maximum flight time.",
+          "Appearance controls light or dark mode, language, theme, the default reminder card style, and the reminder text size (small, medium, or large).",
+          "Runtime controls launch at login, takeoff and landing animations, gentle mode, pause, cursor avoidance, flight area, preview, and maximum flight time.",
           "Default settings control the repeat mode, interval times, default aircraft, height, card style, and scene packs.",
           "The About page contains version information, weekly activity, the full guide, share card, backup export/import, and support."
         ]
@@ -127,7 +127,7 @@ window.SKYLINE_GUIDE = {
           "每个提醒都可以选择机型、飞行高度、卡片样式和飞行区域；跟随设置时使用默认值。",
           "飞行区域包括全屏、四等分和自定义区域。拖动整个区域可以移动，拖动边缘或角可以调整大小。",
           "自定义飞行路径会按区域缩放；区域较小时，飞机和卡片会自动缩小。",
-          "提供 18 种机型和 7 套主题。免费版包含 4 种机型、2 种卡片样式、天际线主题和 1 条自定义路径；Pro 解锁其余内容。其中天际玻璃是半透明的，能透出背后的桌面；深空实色则完全不透明。"
+          "提供 18 种机型和 7 套主题。免费版包含 5 种机型、2 种卡片样式、天际线主题和 1 条自定义路径；Pro 解锁其余内容。其中天际玻璃是半透明的，能透出背后的桌面；深空实色则完全不透明。"
         ]
       ],
       [
@@ -151,8 +151,8 @@ window.SKYLINE_GUIDE = {
       [
         "7. 设置",
         [
-          "外观：浅色或深色模式、语言、主题和默认提醒卡样式。",
-          "运行：登录时启动、起飞动画、温和模式、暂停、光标避让、飞行区域、预览和最长飞行时间。",
+          "外观：浅色或深色模式、语言、主题、默认提醒卡样式和提醒字号（小、中、大）。",
+          "运行：登录时启动、起飞与降落动画、温和模式、暂停、光标避让、飞行区域、预览和最长飞行时间。",
           "默认设置：重复方式、间隔时间、默认机型、高度、卡片样式和场景包。",
           "关于页包含版本信息、每周活动、完整指南、分享卡片、备份导出/导入和支持。"
         ]
@@ -220,7 +220,7 @@ window.SKYLINE_GUIDE = {
           "每個提醒都可以選擇機型、飛行高度、卡片樣式和飛行區域；跟隨設定時使用預設值。",
           "飛行區域包括全屏、四等分和自定義區域。拖動整個區域可以移動，拖動邊緣或角可以調整大小。",
           "自定義飛行路徑會按區域縮放；區域較小時，飛機和卡片會自動縮小。",
-          "提供 18 種機型和 7 套主題。免費版包含 4 種機型、2 種卡片樣式、天際線主題和 1 條自定義路徑；Pro 解鎖其餘內容。其中天際玻璃是半透明的，能透出背後的桌面；深空實色則完全不透明。"
+          "提供 18 種機型和 7 套主題。免費版包含 5 種機型、2 種卡片樣式、天際線主題和 1 條自定義路徑；Pro 解鎖其餘內容。其中天際玻璃是半透明的，能透出背後的桌面；深空實色則完全不透明。"
         ]
       ],
       [
@@ -244,8 +244,8 @@ window.SKYLINE_GUIDE = {
       [
         "7. 設定",
         [
-          "外觀：淺色或深色模式、語言、主題和預設提醒卡樣式。",
-          "執行：登入時啟動、起飛動畫、溫和模式、暫停、游標避讓、飛行區域、預覽和最長飛行時間。",
+          "外觀：淺色或深色模式、語言、主題、預設提醒卡樣式和提醒字號（小、中、大）。",
+          "執行：登入時啟動、起飛與降落動畫、溫和模式、暫停、游標避讓、飛行區域、預覽和最長飛行時間。",
           "預設設定：重複方式、間隔時間、預設機型、高度、卡片樣式和場景包。",
           "關於頁包含版本資訊、每週活動、完整指南、分享卡片、備份匯出/匯入和支援。"
         ]
@@ -313,7 +313,7 @@ window.SKYLINE_GUIDE = {
           "各リマインダーで機体、飛行高度、カード スタイル、フライト エリアを選択できます。設定に従う場合はデフォルトを使用します。",
           "フライト エリアは全画面、4 分割、カスタムから選択します。エリア全体をドラッグして移動し、端や角をドラッグしてサイズを変更します。",
           "カスタム飛行経路はエリアに合わせて拡大縮小します。小さいエリアでは航空機とカードも自動で小さくなります。",
-          "18 機種、7 テーマを用意しています。無料版は 4 機種、2 カード スタイル、Skyline テーマ、1 カスタム経路。Pro で残りを解除できます。Skyline ガラスは半透明で背景のデスクトップが透け、Deep solid は完全に不透明です。"
+          "18 機種、7 テーマを用意しています。無料版は 5 機種、2 カード スタイル、Skyline テーマ、1 カスタム経路。Pro で残りを解除できます。Skyline ガラスは半透明で背景のデスクトップが透け、Deep solid は完全に不透明です。"
         ]
       ],
       [
@@ -337,8 +337,8 @@ window.SKYLINE_GUIDE = {
       [
         "7. 設定",
         [
-          "外観：ライト/ダーク モード、言語、テーマ、デフォルトのリマインダー カード スタイル。",
-          "動作：ログイン時に起動、離陸アニメーション、やさしいモード、一時停止、カーソル回避、フライト エリア、プレビュー、最大飛行時間。",
+          "外観：ライト/ダーク モード、言語、テーマ、デフォルトのリマインダー カード スタイル、リマインダーの文字サイズ（小・中・大）。",
+          "動作：ログイン時に起動、離陸と着陸のアニメーション、やさしいモード、一時停止、カーソル回避、フライト エリア、プレビュー、最大飛行時間。",
           "デフォルト：繰り返し方法、間隔時間、デフォルト機体、高度、カード スタイル、シーン パック。",
           "アプリについて：バージョン、週間アクティビティ、完全ガイド、共有カード、バックアップの書き出し/読み込み、サポート。"
         ]
@@ -406,7 +406,7 @@ window.SKYLINE_GUIDE = {
           "각 알림은 항공기, 비행 높이, 카드 스타일 및 비행 지역을 선택할 수 있습니다. 알림이 설정을 따를 때 기본값이 사용됩니다.",
           "비행 영역에는 전체 화면, 4개 구역 및 사용자 정의 영역이 포함됩니다. 이동하려면 전체 영역을 드래그하세요. 크기를 조정하려면 가장자리나 모서리를 드래그하세요.",
           "사용자 정의 비행 경로는 선택한 지역에 맞게 조정됩니다. 작은 영역은 항공기와 카드를 자동으로 축소합니다.",
-          "스카이라인 루틴에는 18개의 항공기와 7개의 테마가 있습니다. 무료에는 항공기 4대, 카드 스타일 2개, 스카이라인 테마 및 사용자 정의 경로 1개가 포함됩니다. Pro는 나머지 잠금을 해제합니다. Skyline glass는 반투명이라 뒤의 데스크톱이 비치고, Deep solid는 완전히 불투명합니다."
+          "스카이라인 루틴에는 18개의 항공기와 7개의 테마가 있습니다. 무료에는 항공기 5대, 카드 스타일 2개, 스카이라인 테마 및 사용자 정의 경로 1개가 포함됩니다. Pro는 나머지 잠금을 해제합니다. Skyline glass는 반투명이라 뒤의 데스크톱이 비치고, Deep solid는 완전히 불투명합니다."
         ]
       ],
       [
@@ -430,8 +430,8 @@ window.SKYLINE_GUIDE = {
       [
         "7. 설정",
         [
-          "모양은 밝거나 어두운 모드, 언어, 테마 및 기본 알림 카드 스타일을 제어합니다.",
-          "런타임 컨트롤은 로그인 시 시작, 이륙 애니메이션, 젠틀 모드, 일시 중지, 커서 회피, 비행 영역, 미리보기 및 최대 비행 시간을 제어합니다.",
+          "모양은 밝거나 어두운 모드, 언어, 테마, 기본 알림 카드 스타일 및 알림 글자 크기(소, 중, 대)를 제어합니다.",
+          "런타임 컨트롤은 로그인 시 시작, 이륙 및 착륙 애니메이션, 젠틀 모드, 일시 중지, 커서 회피, 비행 영역, 미리보기 및 최대 비행 시간을 제어합니다.",
           "기본 설정은 반복 모드, 간격 시간, 기본 항공기, 높이, 카드 스타일 및 장면 팩을 제어합니다.",
           "정보 페이지에는 버전 정보, 주간 활동, 전체 가이드, 공유 카드, 백업 내보내기/가져오기 및 지원이 포함되어 있습니다."
         ]
@@ -499,7 +499,7 @@ window.SKYLINE_GUIDE = {
           "Cada recordatorio puede elegir una aeronave, altura de vuelo, estilo de tarjeta y área de vuelo. El valor predeterminado se utiliza cuando un recordatorio sigue a la configuración.",
           "Las áreas de vuelo incluyen pantalla completa, cuatro cuartos y un área personalizada. Arrastra toda el área para moverla; arrastre un borde o esquina para cambiar su tamaño.",
           "Las rutas de vuelo personalizadas se adaptan al área seleccionada. Las áreas pequeñas encogen automáticamente el avión y la tarjeta.",
-          "Skyline Routine tiene 18 aviones y 7 temas. Gratis incluye 4 aviones, 2 estilos de cartas, el tema Skyline y un camino personalizado; Pro desbloquea el resto. Skyline glass es translúcido y deja ver el escritorio; Deep solid es completamente opaco."
+          "Skyline Routine tiene 18 aviones y 7 temas. Gratis incluye 5 aviones, 2 estilos de cartas, el tema Skyline y un camino personalizado; Pro desbloquea el resto. Skyline glass es translúcido y deja ver el escritorio; Deep solid es completamente opaco."
         ]
       ],
       [
@@ -523,8 +523,8 @@ window.SKYLINE_GUIDE = {
       [
         "7. Configuración",
         [
-          "La apariencia controla el modo claro u oscuro, el idioma, el tema y el estilo de tarjeta de recordatorio predeterminado.",
-          "Los controles de tiempo de ejecución se inician al iniciar sesión, animación de despegue, modo suave, pausa, evitación del cursor, área de vuelo, vista previa y tiempo máximo de vuelo.",
+          "La apariencia controla el modo claro u oscuro, el idioma, el tema, el estilo de tarjeta de recordatorio predeterminado y el tamaño del texto del recordatorio (pequeño, mediano o grande).",
+          "Los controles de tiempo de ejecución se inician al iniciar sesión, animaciones de despegue y aterrizaje, modo suave, pausa, evitación del cursor, área de vuelo, vista previa y tiempo máximo de vuelo.",
           "La configuración predeterminada controla el modo de repetición, los tiempos de intervalo, el avión predeterminado, la altura, el estilo de la tarjeta y los paquetes de escenas.",
           "La página Acerca de contiene información de la versión, actividad semanal, la guía completa, tarjeta compartida, exportación/importación de copias de seguridad y soporte."
         ]
@@ -592,7 +592,7 @@ window.SKYLINE_GUIDE = {
           "Chaque rappel peut choisir un avion, une hauteur de vol, un style de carte et une zone de vol. La valeur par défaut est utilisée lorsqu'un rappel suit le paramètre.",
           "Les zones de vol comprennent le plein écran, les quatre quarts et une zone personnalisée. Faites glisser toute la zone pour la déplacer ; faites glisser un bord ou un coin pour le redimensionner.",
           "Les trajectoires de vol personnalisées s'adaptent à la zone sélectionnée. Les petites zones rétrécissent automatiquement l'avion et la carte.",
-          "Skyline Routine comprend 18 avions et 7 thèmes. Gratuit comprend 4 avions, 2 styles de cartes, le thème Skyline et un chemin personnalisé ; Pro débloque le reste. Skyline glass est translucide et laisse voir le bureau ; Deep solid est entièrement opaque."
+          "Skyline Routine comprend 18 avions et 7 thèmes. Gratuit comprend 5 avions, 2 styles de cartes, le thème Skyline et un chemin personnalisé ; Pro débloque le reste. Skyline glass est translucide et laisse voir le bureau ; Deep solid est entièrement opaque."
         ]
       ],
       [
@@ -616,8 +616,8 @@ window.SKYLINE_GUIDE = {
       [
         "7. Paramètres",
         [
-          "L'apparence contrôle le mode clair ou sombre, la langue, le thème et le style de carte de rappel par défaut.",
-          "Les contrôles d'exécution se lancent à la connexion, l'animation de décollage, le mode doux, la pause, l'évitement du curseur, la zone de vol, l'aperçu et le temps de vol maximum.",
+          "L'apparence contrôle le mode clair ou sombre, la langue, le thème, le style de carte de rappel par défaut et la taille du texte des rappels (petite, moyenne ou grande).",
+          "Les contrôles d'exécution se lancent à la connexion, les animations de décollage et d'atterrissage, le mode doux, la pause, l'évitement du curseur, la zone de vol, l'aperçu et le temps de vol maximum.",
           "Les paramètres par défaut contrôlent le mode de répétition, les temps d'intervalle, l'avion par défaut, la hauteur, le style de carte et les packs de scènes.",
           "La page À propos contient des informations sur la version, l'activité hebdomadaire, le guide complet, la carte de partage, l'exportation/importation de sauvegarde et l'assistance."
         ]
@@ -685,7 +685,7 @@ window.SKYLINE_GUIDE = {
           "Für jede Erinnerung können ein Flugzeug, eine Flughöhe, ein Kartenstil und ein Fluggebiet ausgewählt werden. Der Standardwert wird verwendet, wenn eine Erinnerung auf die Einstellung folgt.",
           "Zu den Flugbereichen gehören der Vollbildmodus, die vier Viertel und ein benutzerdefinierter Bereich. Ziehen Sie den gesamten Bereich, um ihn zu verschieben. Ziehen Sie eine Kante oder Ecke, um deren Größe zu ändern.",
           "Benutzerdefinierte Flugrouten passen sich dem ausgewählten Bereich an. Kleine Bereiche verkleinern automatisch das Flugzeug und die Karte.",
-          "Skyline Routine verfügt über 18 Flugzeuge und 7 Themen. Kostenlos beinhaltet 4 Flugzeuge, 2 Kartenstile, das Skyline-Thema und einen benutzerdefinierten Pfad; Pro schaltet den Rest frei. Skyline Glass ist durchscheinend und lässt den Desktop durchscheinen; Deep Solid ist vollständig deckend."
+          "Skyline Routine verfügt über 18 Flugzeuge und 7 Themen. Kostenlos beinhaltet 5 Flugzeuge, 2 Kartenstile, das Skyline-Thema und einen benutzerdefinierten Pfad; Pro schaltet den Rest frei. Skyline Glass ist durchscheinend und lässt den Desktop durchscheinen; Deep Solid ist vollständig deckend."
         ]
       ],
       [
@@ -709,8 +709,8 @@ window.SKYLINE_GUIDE = {
       [
         "7. Einstellungen",
         [
-          "Das Erscheinungsbild steuert den Hell- oder Dunkelmodus, die Sprache, das Thema und den Standardstil der Erinnerungskarte.",
-          "Laufzeitsteuerungen starten beim Anmelden, Startanimation, sanfter Modus, Pause, Cursorvermeidung, Flugbereich, Vorschau und maximale Flugzeit.",
+          "Das Erscheinungsbild steuert den Hell- oder Dunkelmodus, die Sprache, das Thema, den Standardstil der Erinnerungskarte und die Textgröße der Erinnerung (klein, mittel oder groß).",
+          "Laufzeitsteuerungen starten beim Anmelden, Start- und Landeanimation, sanfter Modus, Pause, Cursorvermeidung, Flugbereich, Vorschau und maximale Flugzeit.",
           "Standardeinstellungen steuern den Wiederholungsmodus, die Intervallzeiten, das Standardflugzeug, die Höhe, den Kartenstil und die Szenenpakete.",
           "Die Seite „Info“ enthält Versionsinformationen, wöchentliche Aktivitäten, den vollständigen Leitfaden, eine Freigabekarte, Backup-Export/-Import und Support."
         ]
@@ -778,7 +778,7 @@ window.SKYLINE_GUIDE = {
           "Per ogni promemoria è possibile scegliere un aereo, un'altezza di volo, uno stile di carta e un'area di volo. L'impostazione predefinita viene utilizzata quando un promemoria segue l'impostazione.",
           "Le aree di volo includono lo schermo intero, i quattro quarti e un'area personalizzata. Trascina l'intera area per spostarla; trascina un bordo o un angolo per ridimensionarlo.",
           "I percorsi di volo personalizzati si adattano all'area selezionata. Piccole aree rimpiccioliscono automaticamente l'aereo e la carta.",
-          "Skyline Routine ha 18 aerei e 7 temi. La versione gratuita include 4 aerei, 2 stili di carte, il tema Skyline e un percorso personalizzato; Pro sblocca il resto. Skyline glass è traslucido e lascia vedere il desktop; Deep solid è completamente opaco."
+          "Skyline Routine ha 18 aerei e 7 temi. La versione gratuita include 5 aerei, 2 stili di carte, il tema Skyline e un percorso personalizzato; Pro sblocca il resto. Skyline glass è traslucido e lascia vedere il desktop; Deep solid è completamente opaco."
         ]
       ],
       [
@@ -802,8 +802,8 @@ window.SKYLINE_GUIDE = {
       [
         "7. Impostazioni",
         [
-          "L'aspetto controlla la modalità chiara o scura, la lingua, il tema e lo stile predefinito della scheda promemoria.",
-          "I controlli di runtime vengono avviati all'accesso, animazione del decollo, modalità delicata, pausa, evitamento del cursore, area di volo, anteprima e tempo di volo massimo.",
+          "L'aspetto controlla la modalità chiara o scura, la lingua, il tema, lo stile predefinito della scheda promemoria e la dimensione del testo del promemoria (piccola, media o grande).",
+          "I controlli di runtime vengono avviati all'accesso, animazioni di decollo e atterraggio, modalità delicata, pausa, evitamento del cursore, area di volo, anteprima e tempo di volo massimo.",
           "Le impostazioni predefinite controllano la modalità di ripetizione, i tempi di intervallo, l'aereo predefinito, l'altezza, lo stile della carta e i pacchetti di scene.",
           "La pagina Informazioni contiene informazioni sulla versione, attività settimanale, guida completa, scheda di condivisione, esportazione/importazione di backup e supporto."
         ]
@@ -871,7 +871,7 @@ window.SKYLINE_GUIDE = {
           "Bij elke herinnering kunt u een vliegtuig, vluchthoogte, kaartstijl en vluchtgebied kiezen. De standaardwaarde wordt gebruikt wanneer een herinnering volgt op de instelling.",
           "Vluchtgebieden omvatten volledig scherm, de vier kwartalen en een aangepast gebied. Sleep het hele gebied om het te verplaatsen; sleep een rand of hoek om het formaat te wijzigen.",
           "Aangepaste vliegroutes schalen naar het geselecteerde gebied. Kleine gebieden verkleinen automatisch het vliegtuig en de kaart.",
-          "Skyline Routine heeft 18 vliegtuigen en 7 thema's. Gratis bevat 4 vliegtuigen, 2 kaartstijlen, het Skyline-thema en één aangepast pad; Pro ontgrendelt de rest. Skyline glass is doorschijnend en laat het bureaublad erdoorheen zien; Deep solid is volledig ondoorzichtig."
+          "Skyline Routine heeft 18 vliegtuigen en 7 thema's. Gratis bevat 5 vliegtuigen, 2 kaartstijlen, het Skyline-thema en één aangepast pad; Pro ontgrendelt de rest. Skyline glass is doorschijnend en laat het bureaublad erdoorheen zien; Deep solid is volledig ondoorzichtig."
         ]
       ],
       [
@@ -895,8 +895,8 @@ window.SKYLINE_GUIDE = {
       [
         "7. Instellingen",
         [
-          "Uiterlijk bepaalt de lichte of donkere modus, de taal, het thema en de standaardstijl van de herinneringskaart.",
-          "Runtime-besturingselementen worden gestart bij inloggen, opstijganimatie, zachte modus, pauze, cursorvermijding, vluchtgebied, voorbeeld en maximale vliegtijd.",
+          "Uiterlijk bepaalt de lichte of donkere modus, de taal, het thema, de standaardstijl van de herinneringskaart en de tekstgrootte van herinneringen (klein, middelgroot of groot).",
+          "Runtime-besturingselementen omvatten starten bij inloggen, opstijg- en landingsanimatie, zachte modus, pauze, cursorvermijding, vluchtgebied, voorbeeld en maximale vliegtijd.",
           "Standaardinstellingen bepalen de herhaalmodus, intervaltijden, standaardvliegtuigen, hoogte, kaartstijl en scènepakketten.",
           "De Over-pagina bevat versie-informatie, wekelijkse activiteiten, de volledige gids, deelkaart, back-up exporteren/importeren en ondersteuning."
         ]
@@ -964,7 +964,7 @@ window.SKYLINE_GUIDE = {
           "Varje påminnelse kan välja ett flygplan, flyghöjd, kortstil och flygområde. Standardinställningen används när en påminnelse följer inställningen.",
           "Flygområdena inkluderar helskärm, de fyra kvarteren och ett anpassat område. Dra hela området för att flytta det; dra en kant eller hörn för att ändra storlek på den.",
           "Anpassade flygvägar skala till det valda området. Små områden krymper automatiskt flygplanet och kortet.",
-          "Skyline Routine har 18 flygplan och 7 teman. Gratis inkluderar 4 flygplan, 2 kortstilar, Skyline-temat och en anpassad bana; Pro låser upp resten. Skyline glass är genomskinligt och visar skrivbordet bakom; Deep solid är helt ogenomskinligt."
+          "Skyline Routine har 18 flygplan och 7 teman. Gratis inkluderar 5 flygplan, 2 kortstilar, Skyline-temat och en anpassad bana; Pro låser upp resten. Skyline glass är genomskinligt och visar skrivbordet bakom; Deep solid är helt ogenomskinligt."
         ]
       ],
       [
@@ -988,8 +988,8 @@ window.SKYLINE_GUIDE = {
       [
         "7. Inställningar",
         [
-          "Utseende styr ljust eller mörkt läge, språk, tema och standardstilen för påminnelsekort.",
-          "Runtime-kontroller startas vid inloggning, startanimering, mjukt läge, paus, markörundvikande, flygområde, förhandsvisning och maximal flygtid.",
+          "Utseende styr ljust eller mörkt läge, språk, tema, standardstilen för påminnelsekort och textstorleken för påminnelser (liten, medium eller stor).",
+          "Runtime-kontroller startas vid inloggning, start- och landningsanimering, mjukt läge, paus, markörundvikande, flygområde, förhandsvisning och maximal flygtid.",
           "Standardinställningar styr upprepningsläget, intervalltider, standardflygplan, höjd, kortstil och scenpaket.",
           "Om-sidan innehåller versionsinformation, veckoaktivitet, den fullständiga guiden, delningskort, backup-export/import och support."
         ]
@@ -1057,7 +1057,7 @@ window.SKYLINE_GUIDE = {
           "Для каждого напоминания можно выбрать самолёт, высоту полёта, стиль карточки и зону полёта. Значение по умолчанию используется, если напоминание следует настройке.",
           "Зоны полёта: весь экран, четыре четверти и своя зона. Перетаскивайте всю зону, чтобы переместить её; тяните за край или угол, чтобы изменить размер.",
           "Свои маршруты масштабируются под выбранную зону. В маленьких зонах самолёт и карточка автоматически уменьшаются.",
-          "В Skyline Routine 18 самолётов и 7 тем. Бесплатная версия включает 4 самолёта, 2 стиля карточек, тему Skyline и один свой маршрут; Pro открывает остальное. Skyline glass полупрозрачный и показывает рабочий стол за ним; Deep solid полностью непрозрачный."
+          "В Skyline Routine 18 самолётов и 7 тем. Бесплатная версия включает 5 самолётов, 2 стиля карточек, тему Skyline и один свой маршрут; Pro открывает остальное. Skyline glass полупрозрачный и показывает рабочий стол за ним; Deep solid полностью непрозрачный."
         ]
       ],
       [
@@ -1081,8 +1081,8 @@ window.SKYLINE_GUIDE = {
       [
         "7. Настройки",
         [
-          "«Внешний вид» управляет светлой или тёмной темой, языком, темой оформления и стилем карточки напоминания по умолчанию.",
-          "«Работа» управляет запуском при входе, анимацией взлёта, мягким режимом, паузой, избеганием курсора, зоной полёта, предпросмотром и максимальным временем полёта.",
+          "«Внешний вид» управляет светлой или тёмной темой, языком, темой оформления, стилем карточки напоминания по умолчанию и размером текста напоминания (маленький, средний или большой).",
+          "«Работа» управляет запуском при входе, анимациями взлёта и посадки, мягким режимом, паузой, избеганием курсора, зоной полёта, предпросмотром и максимальным временем полёта.",
           "«Значения по умолчанию» управляют режимом повтора, временем интервалов, самолётом, высотой и стилем карточки по умолчанию, а также наборами сцен.",
           "На странице «О программе» есть информация о версии, недельная активность, полное руководство, карточка для публикации, экспорт и импорт резервной копии и поддержка."
         ]
@@ -1150,7 +1150,7 @@ window.SKYLINE_GUIDE = {
           "Mỗi nhắc nhở có thể chọn máy bay, độ cao bay, kiểu thẻ và vùng bay. Giá trị mặc định được dùng khi nhắc nhở theo cài đặt.",
           "Vùng bay gồm toàn màn hình, bốn phần tư và vùng tùy chỉnh. Kéo toàn bộ vùng để di chuyển; kéo cạnh hoặc góc để thay đổi kích thước.",
           "Đường bay tùy chỉnh co giãn theo vùng đã chọn. Vùng nhỏ sẽ tự động thu nhỏ máy bay và thẻ.",
-          "Skyline Routine có 18 máy bay và 7 chủ đề. Bản miễn phí gồm 4 máy bay, 2 kiểu thẻ, chủ đề Skyline và một đường bay tùy chỉnh; Pro mở khóa phần còn lại. Skyline glass trong mờ và lộ ra màn hình phía sau; Deep solid hoàn toàn không trong suốt."
+          "Skyline Routine có 18 máy bay và 7 chủ đề. Bản miễn phí gồm 5 máy bay, 2 kiểu thẻ, chủ đề Skyline và một đường bay tùy chỉnh; Pro mở khóa phần còn lại. Skyline glass trong mờ và lộ ra màn hình phía sau; Deep solid hoàn toàn không trong suốt."
         ]
       ],
       [
@@ -1174,8 +1174,8 @@ window.SKYLINE_GUIDE = {
       [
         "7. Cài đặt",
         [
-          "Giao diện điều khiển chế độ sáng hoặc tối, ngôn ngữ, chủ đề và kiểu thẻ nhắc nhở mặc định.",
-          "Vận hành điều khiển khởi chạy khi đăng nhập, hoạt ảnh cất cánh, chế độ nhẹ nhàng, tạm dừng, tránh con trỏ, vùng bay, xem trước và thời gian bay tối đa.",
+          "Giao diện điều khiển chế độ sáng hoặc tối, ngôn ngữ, chủ đề, kiểu thẻ nhắc nhở mặc định và cỡ chữ nhắc nhở (nhỏ, vừa hoặc lớn).",
+          "Vận hành điều khiển khởi chạy khi đăng nhập, hoạt ảnh cất cánh và hạ cánh, chế độ nhẹ nhàng, tạm dừng, tránh con trỏ, vùng bay, xem trước và thời gian bay tối đa.",
           "Cài đặt mặc định điều khiển chế độ lặp, thời gian khoảng lặp, máy bay mặc định, độ cao, kiểu thẻ và bộ cảnh.",
           "Trang Giới thiệu chứa thông tin phiên bản, hoạt động hằng tuần, hướng dẫn đầy đủ, thẻ chia sẻ, xuất/nhập bản sao lưu và hỗ trợ."
         ]
@@ -1243,7 +1243,7 @@ window.SKYLINE_GUIDE = {
           "يمكن لكل تذكير اختيار طائرة وارتفاع طيران ونمط بطاقة ومنطقة طيران. تُستخدم القيمة الافتراضية عندما يتبع التذكير الإعداد.",
           "تشمل مناطق الطيران الشاشة الكاملة والأرباع الأربعة ومنطقة مخصصة. اسحب المنطقة كاملة لنقلها؛ واسحب حافة أو زاوية لتغيير حجمها.",
           "تتكيف مسارات الطيران المخصصة مع المنطقة المحددة. المناطق الصغيرة تصغّر الطائرة والبطاقة تلقائيًا.",
-          "يضم Skyline Routine 18 طائرة و7 سمات. تتضمن النسخة المجانية 4 طائرات ونمطي بطاقات وسمة Skyline ومسارًا مخصصًا واحدًا؛ ويفتح Pro الباقي. زجاج Skyline شفاف جزئيًا ويظهر سطح المكتب خلفه، بينما Deep solid معتم تمامًا."
+          "يضم Skyline Routine 18 طائرة و7 سمات. تتضمن النسخة المجانية 5 طائرات ونمطي بطاقات وسمة Skyline ومسارًا مخصصًا واحدًا؛ ويفتح Pro الباقي. زجاج Skyline شفاف جزئيًا ويظهر سطح المكتب خلفه، بينما Deep solid معتم تمامًا."
         ]
       ],
       [
@@ -1267,8 +1267,8 @@ window.SKYLINE_GUIDE = {
       [
         "7. الإعدادات",
         [
-          "يتحكم المظهر في الوضع الفاتح أو الداكن واللغة والسمة ونمط بطاقة التذكير الافتراضي.",
-          "يتحكم التشغيل في التشغيل عند تسجيل الدخول وحركة الإقلاع والوضع اللطيف والإيقاف المؤقت وتجنب المؤشر ومنطقة الطيران والمعاينة والحد الأقصى لزمن الرحلة.",
+          "يتحكم المظهر في الوضع الفاتح أو الداكن واللغة والسمة ونمط بطاقة التذكير الافتراضي وحجم نص التذكير (صغير أو متوسط أو كبير).",
+          "يتحكم التشغيل في التشغيل عند تسجيل الدخول وحركتي الإقلاع والهبوط والوضع اللطيف والإيقاف المؤقت وتجنب المؤشر ومنطقة الطيران والمعاينة والحد الأقصى لزمن الرحلة.",
           "تتحكم الإعدادات الافتراضية في نمط التكرار وأوقات الفاصل والطائرة الافتراضية والارتفاع ونمط البطاقة وحزم المشاهد.",
           "تحتوي صفحة «حول» على معلومات الإصدار والنشاط الأسبوعي والدليل الكامل وبطاقة المشاركة وتصدير/استيراد النسخ الاحتياطي والدعم."
         ]
