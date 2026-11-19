@@ -24,10 +24,15 @@
 | 用途 | 链接 |
 | --- | --- |
 | Mac App Store | https://apps.apple.com/app/id6826509385 |
-| GitHub 仓库 | https://github.com/runningswiftui-creator/SkylineRoutine |
-| GitHub Releases | https://github.com/runningswiftui-creator/SkylineRoutine/releases |
 
-Windows 直接授权版的 checkout 尚未接入（`site.js` 中 `checkoutUrl` 为空），接入后补充到这里。
+macOS 公开下载只提供 Mac App Store，不提供 DMG 直接下载。Windows 版仍在内部维护，暂不对外提供下载或购买。
+
+## 内部（不对外发布）
+
+| 用途 | 链接 |
+| --- | --- |
+| GitHub 仓库（私有） | https://github.com/runningswiftui-creator/SkylineRoutine |
+| GitHub Releases（私有） | https://github.com/runningswiftui-creator/SkylineRoutine/releases |
 
 ## 使用文档
 

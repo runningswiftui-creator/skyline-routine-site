@@ -1,25 +1,7 @@
-/* Replace this with the checkout URL from Lemon Squeezy before launch. */
 const SITE_CONFIG = {
-  checkoutUrl: "",
   appStoreUrl: "https://apps.apple.com/app/id6826509385",
   supportEmail: "runningswiftui@gmail.com"
 };
-
-const checkoutButtons = document.querySelectorAll("[data-checkout]");
-const checkoutUrl = (SITE_CONFIG.checkoutUrl || "").trim();
-
-for (const button of checkoutButtons) {
-  if (checkoutUrl) {
-    button.href = checkoutUrl;
-    button.target = "_blank";
-    button.rel = "noopener noreferrer";
-  } else {
-    button.addEventListener("click", (event) => {
-      event.preventDefault();
-      showToast("Checkout is being connected. Please check back soon.");
-    });
-  }
-}
 
 const appStoreUrl = (SITE_CONFIG.appStoreUrl || "").trim();
 for (const button of document.querySelectorAll("[data-appstore]")) {
